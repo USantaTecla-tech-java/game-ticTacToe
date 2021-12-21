@@ -1,0 +1,38 @@
+@startuml arquitectura
+package tictactoe #DDDDDD { }
+tictactoe .down.> tictactoe.views.graphics
+tictactoe .down.> tictactoe.views.console
+tictactoe .down.> tictactoe.controllers
+tictactoe .down.> tictactoe.views
+
+package tictactoe.controllers #DDDDDD { }
+tictactoe.controllers .down.> tictactoe.models
+
+package tictactoe.models #DDDDDD { }
+package java.util{ }
+tictactoe.models .down.> java.util
+tictactoe.controllers .down.> java.util
+
+package utils #DDDDDD { }
+package java.io{ }
+utils .down.> java.io
+
+package tictactoe.views #DDDDDD { }
+tictactoe.views .down.> tictactoe.controllers
+
+package tictactoe.views.console #DDDDDD { }
+tictactoe.views.console .down.> tictactoe.views
+tictactoe.views.console .down.> tictactoe.controllers
+tictactoe.views.console .down.> utils
+
+package tictactoe.views.graphics #DDDDDD { }
+package java.awt{ }
+tictactoe.views.graphics .down.> java.awt
+package java.awt.event{ }
+tictactoe.views.graphics .down.> java.awt.event
+tictactoe.views.graphics .down.> tictactoe.views
+tictactoe.views.graphics .down.> tictactoe.controllers
+package javax.swing{ }
+tictactoe.views.graphics .down.> javax.swing
+
+@enduml

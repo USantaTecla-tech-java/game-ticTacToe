@@ -1,0 +1,52 @@
+@startuml desarrolloImplementacion
+package "  "  as tictactoe {
+}
+package "  "  as tictactoe.models {
+}
+package "  "  as tictactoe.controllers {
+}
+package "  "  as tictactoe.views {
+}
+package "  "  as tictactoe.views.console {
+}
+package "  "  as tictactoe.views.graphics {
+}
+package "  "  as utils {
+}
+package "  "  as java.io {
+}
+package "  "  as java.util {
+}
+package "  "  as java.awt {
+}
+package "  "  as java.awt.event {
+}
+package "  "  as javax.swing {
+}
+
+[tictactoe.jar] as jar
+
+jar *--> tictactoe
+jar *--> tictactoe.models
+jar *--> tictactoe.controllers
+jar *--> tictactoe.views
+jar *--> tictactoe.views.console
+jar *--> tictactoe.views.graphics
+jar *--> utils
+jar *--> java.io
+jar *--> java.util
+jar *--> java.awt
+jar *--> java.awt.event
+jar *--> javax.swing
+@enduml
+
+@startuml despliegueFisica
+node node #DDDDDD [
+<b>Personal Computer</b>
+----
+]
+
+[ tictactoe.jar ] as component
+
+node *--> component
+@enduml

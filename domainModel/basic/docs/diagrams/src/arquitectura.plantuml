@@ -1,0 +1,10 @@
+@startuml arquitectura
+package usantatecla.tictactoe #DDDDDD { }
+package usantatecla.utils #DDDDDD { }
+package java.util{ }
+package java.io{ }
+
+usantatecla.tictactoe .down.> java.util
+usantatecla.tictactoe .down.> usantatecla.utils
+usantatecla.utils .down.> java.io
+@enduml

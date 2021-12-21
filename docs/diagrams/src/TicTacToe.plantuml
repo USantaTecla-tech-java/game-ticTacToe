@@ -1,0 +1,114 @@
+@startuml TicTacToe
+
+title Secuencia versiones TicTacToe
+
+state TicTacToe {
+
+state domainModel {
+[*] --> dm.basic
+dm.basic --> dm.machine
+    state dm.basic #AF9EAF: Clases del modelo del dominio\nacopladas con interfaz de consola 
+
+    state dm.machine #ECEA58: Clases del modelo del dominio\nacopladas con interfaz de consola\nañadiendo un jugador máquina
+}
+ 
+
+state documentView {
+[*] --> dv.withPrototype 
+[*] --> dv.withDoubleDispatching 
+    state dv.withPrototype #ECEA58: Desacoplar modelos y vistas\nde las clases empleando\nel patrón Prototype
+
+    state dv.withDoubleDispatching #ECEA58: Desacoplar modelos y vistas\nde las clases empleando\nel patrón Doble Despacho
+
+
+    [*] --> dv.basic 
+    state dv.basic #AF9EAF: Clases Vistas de Texto separadas\nde los Modelos del Dominio pero con\nModelos de grano grueso con el\nadvenimiento de nueva funcionalidad.
+
+    state withoutFactoryMethod #58ECEB:Clase Vistas de Interfaz Gráfica de Usuario\npero con DRY en Vistas de tecnologías\ndiferentes y con Modelos de grano grueso\ncon el advenimiento de nueva funcionalidad.
+
+    state withFactoryMethod #58ECEB: Clase Vista abstracta para Open/Close de sus\ntecnologías pero con Modelos de grano grueso\ncon el advenimiento de nueva funcionalidad.
+
+
+    dv.basic --> withoutFactoryMethod:Mantenimiento perfectivo
+    withoutFactoryMethod --> withFactoryMethod:Mantenimiento correctivo
+    withFactoryMethod-->[*]
+    
+    dv.withPrototype -->[*]
+    dv.withDoubleDispatching-->[*]
+}
+
+dm.basic --> documentView:Mantenimiento correctivo
+documentView --> modelViewPresenter
+
+
+state modelViewPresenter {
+    [*] --> presentationModel
+    [*] --> passiveView
+    presentationModel-->[*]
+
+
+    state presentationModel {
+    [*] --> pm.basic
+
+    state pm.basic #58ECEB:Clases Controladoras entre Vistas y Modelos por\ncada Caso de Uso pero con la clase Principal y las\nVistas acopladas a cada controlador actual y futuro.
+
+    state withFacade #58ECEB:Clase Lógica que encapsula Controladores y Modelos\npero con Vistas con DRY en la Lógica de Control.
+
+    state withoutDoubleDispatching #58ECEB:Clase Estado para la Inversión de Control de Vistas\na la Lógica pero violando el Principio de Sustitución\nde Liskov.
+
+    state withDoubleDispatching #58ECEB:Clase Vistador de Controladores para Técnica\nde Doble Despacho
+
+    state withComposite #D80732:Clase Comando del menú y Controlador Compuesto\nde ciertos Estados para Open/Close\ncon nuevos Casos de Uso.
+
+    state withoutProxy #8958EC:Clase TCP/IP para tecnología de Despliegue\npero con Controladores acoplados, poco cohesivos y\ngrano grueso con cada nueva tecnología.
+
+    state withProxy #8958EC:Clases Proxy para Open/Close para nuevas\ntecnologías de Despliegue.
+
+    state withoutDAO #EC9B58:Clases Vistas y Controladores para la tecnología\nde persistencia pero con Modelos de grano grueso,\nbaja cohesión y alto acoplamiento a tecnologías\nde persistencia de ficheros.
+
+    state withDAO #EC9B58: Patrón DAO
+
+    state withoutPrototype #75EC58:Nuevas Vistas y DAOS para la nueva tecnología\npero con clase Principal acoplada a las tecnologías\nactuales y futuras de persistencia.
+
+    state withPrototype #75EC58:Open/Close para arranque con configuración de persistencia
+
+
+    pm.basic --> withFacade
+    withFacade --> withoutDoubleDispatching
+    withoutDoubleDispatching --> withDoubleDispatching
+    withDoubleDispatching --> withComposite
+    withComposite --> withoutProxy
+    withoutProxy --> withProxy
+    withProxy --> withoutDAO
+    withoutDAO --> withDAO
+    withDAO --> withoutPrototype
+    withoutPrototype --> withPrototype
+}
+
+state passiveView #AF9EAF: Baile de la Triada.
+
+state supervisorController #AF9EAF: Baile de la Triada.
+
+passiveView-->supervisorController
+supervisorController-->[*]
+}
+modelViewPresenter --> modelViewController
+
+state modelViewController #AF9EAF: Baile de la Triada.
+
+
+modelViewController-->[*]
+
+}
+legend
+|=  Colores de los requisitos |
+|<#AF9EAF> Basica |
+|<#ECEA58> Machine |
+|<#EC9B58> Ficheros |
+|<#75EC58> BaseDatos |
+|<#58ECEB> Graficos |
+|<#8958EC> Cliente Servidor|
+|<#D80732> UndoRedo |
+endlegend
+
+@enduml

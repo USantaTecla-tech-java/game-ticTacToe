@@ -1,0 +1,28 @@
+@startuml desarrolloImplementacion
+
+package "  "  as usantatecla.tictactoe {
+}
+package "  "  as usantatecla.tictactoe.models {
+}
+package "  "  as usantatecla.tictactoe.controllers {
+}
+package "  "  as usantatecla.tictactoe.views {
+}
+package "  "  as utils {
+}
+package "  "  as java.io {
+}
+package "  "  as java.util {
+}
+
+[usantatecla.tictactoe.jar] as jar
+
+jar *--> usantatecla.tictactoe
+jar *--> usantatecla.tictactoe.models
+jar *--> usantatecla.tictactoe.controllers
+jar *--> usantatecla.tictactoe.views
+jar *--> utils
+jar *--> java.io
+jar *--> java.util
+
+@enduml

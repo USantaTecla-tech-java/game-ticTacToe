@@ -1,0 +1,34 @@
+@startuml arquitectura
+package tictactoe #DDDDDD { }
+tictactoe .down.> tictactoe.models
+tictactoe .down.> tictactoe.views.console
+tictactoe .down.> tictactoe.views.graphics
+tictactoe .down.> tictactoe.controllers
+tictactoe .down.> tictactoe.views
+tictactoe .down.> tictactoe.types
+
+package tictactoe.controllers #DDDDDD { }
+tictactoe.controllers .down.> tictactoe.models
+
+package tictactoe.models #DDDDDD { }
+tictactoe.models .down.> tictactoe.types
+package tictactoe.types #DDDDDD { }
+package java.util{ }
+tictactoe.models .down.> java.util
+
+package utils #DDDDDD { }
+package java.io{ }
+utils .down.> java.io
+
+package tictactoe.views #DDDDDD { }
+tictactoe.views .down.> tictactoe.controllers
+
+package tictactoe.views.console #DDDDDD { }
+tictactoe.views.console .down.> tictactoe.views
+tictactoe.views.console .down.> tictactoe.controllers
+tictactoe.views.console .down.> utils
+
+package tictactoe.views.graphics #DDDDDD { }
+tictactoe.views.graphics .down.> tictactoe.views
+
+@enduml
