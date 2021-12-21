@@ -1,0 +1,200 @@
+@startuml play
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object "playController\n:PlayController" as PlayController{
+
+    }
+}
+
+
+package models  {
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object "coordinate\n:Coordinate" as  Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+
+    object "error\n:Error" as  Error{
+
+    }
+}
+
+
+package views {
+
+    object BoardView{
+
+    }
+
+    object PlayView{
+
+    }
+
+    object MovementView{
+
+    }
+
+    object ColorView{
+
+    }
+
+    object ErrorView{
+
+    }
+
+    object MenuView{
+
+    }
+
+    object Message{
+
+    }
+
+    object CoordinateView{
+
+    }
+}
+
+Playerr --> PlayView
+note on link
+    play()
+end note
+PlayView ..> Message
+note on link
+    write()
+end note
+PlayView ..> BoardView
+note on link
+    write(playController)
+end note
+MenuView ..> MovementView
+note on link
+    interact(playController)
+end note
+MenuView ..> Message
+note on link
+    interact(playController)
+    write()
+end note
+BoardView ..> ColorView
+note on link
+    write(color)
+end note
+BoardView ..> Message
+note on link
+    write()
+    writeln()
+end note
+BoardView ..> Coordinate
+ColorView ..> Color
+PlayView --> PlayController
+note on link
+    next()
+    isTicTacToe()
+end note
+PlayView ..> MenuView
+note on link
+    write(playController)
+end note
+MovementView ..> PlayController
+note on link
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+MovementView ..> CoordinateView
+note on link
+    read()
+end note
+CoordinateView ..> Coordinate
+MovementView ..> ErrorView
+note on link
+    write(error)
+end note
+MovementView ..> Coordinate
+MovementView ..> Error
+BoardView ..> PlayController
+note on link
+    getColor(coordinate)
+end note
+PlayController --> Game
+note on link
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+    next()
+    getActiveColor()
+    getColor(coordinate)
+    isTicTacToe()
+end note
+PlayController ..> Coordinate
+Game *-down-> Turn
+note on link
+    next()
+    getActiveColor()
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+Game *-down-> Board
+note on link
+    getColor(coordinate)
+    isTicTacToe()
+end note
+Board ..> Coordinate
+Board *-down-> Color
+ErrorView ..> Error
+Turn ..> Board
+note on link
+    isTicTacToe()
+end note
+Turn ..> Coordinate
+Turn *-down-> Player
+note on link
+    getColor()
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+Player ..> Coordinate
+Player ..> Error
+Player --> Board
+Player --> Color
+Game ..> Coordinate
+@enduml

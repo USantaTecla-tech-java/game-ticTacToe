@@ -1,0 +1,36 @@
+@startuml exit
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+    object "exitController\n:ExitController" as ExitController{
+
+    }
+ }
+
+
+package views {
+
+    object PlayView{
+
+    }
+
+    object MenuView {
+
+    }
+ }
+
+Playerr --> PlayView
+note on link
+    exit()
+end note
+PlayView ..> MenuView
+note on link
+    write(exitController)
+end note
+MenuView ..> ExitController
+note on link
+    exit()
+end note
+@enduml

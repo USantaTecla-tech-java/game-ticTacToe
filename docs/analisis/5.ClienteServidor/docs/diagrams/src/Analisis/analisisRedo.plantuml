@@ -1,0 +1,144 @@
+@startuml redo
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object "redoController\n:RedoController" as RedoController{
+
+    }
+}
+
+
+package models  {
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object "coordinate\n:Coordinate" as  Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+}
+
+
+package views {
+
+    object BoardView{
+
+    }
+
+    object PlayView{
+
+    }
+
+    object MenuView{
+
+    }
+
+    object ColorView{
+
+    }
+
+    object Message{
+
+    }
+}
+
+Playerr --> PlayView
+note on link
+    redo()
+end note
+PlayView ..> Message
+note on link
+    write()
+end note
+PlayView ..> BoardView
+note on link
+    write(redoController)
+end note
+MenuView ..> Message
+note on link
+    write()
+end note
+    BoardView ..> ColorView
+note on link
+    write(color)
+end note
+MenuView ..> RedoController
+note on link
+    undoable()
+    redoable()
+    redo()
+end note
+BoardView ..> Message
+note on link
+    write()
+    writeln()
+end note
+BoardView ..> Coordinate
+PlayView --> RedoController
+note on link
+    next()
+    isTicTacToe()
+end note
+PlayView ..> MenuView
+note on link
+    interact(redoController)
+end note
+BoardView ..> RedoController
+note on link
+    getColor(coordinate)
+end note
+RedoController --> Game
+note on link
+    undoable()
+    redoable()
+    redo()
+end note
+RedoController ..> Coordinate
+Game *-down-> Turn
+note on link
+    next()
+end note
+Game *-down-> Board
+note on link
+    undoable()
+    redoable()
+    redo()
+    getColor(coordinate)
+    isTicTacToe()
+end note
+Board ..> Coordinate
+Board *-down-> Color
+Turn ..> Board
+note on link
+    isTicTacToe()
+end note
+Turn ..> Coordinate
+Turn *-down-> Player
+note on link
+    getColor()
+end note
+Player ..> Coordinate
+Player --> Color
+Game ..> Coordinate
+@enduml

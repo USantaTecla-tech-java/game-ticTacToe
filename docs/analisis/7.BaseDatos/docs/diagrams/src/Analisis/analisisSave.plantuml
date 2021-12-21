@@ -1,0 +1,80 @@
+@startuml save
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object SaveController{
+
+    }
+}
+
+package models  {
+
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+}
+
+package types  {
+
+    object Coordinate{
+
+    }
+
+    object Color{
+
+    }
+}
+
+
+package views {
+
+    object SaveView{
+
+    }
+
+    object Message{
+
+    }
+}
+
+Playerr --> SaveView
+note on link
+    save()
+end note
+SaveView --> SaveController
+note on link
+    save(gameName)
+end note
+SaveView ..> Message
+note on link
+    write()
+end note
+SaveController --> Game
+note on link
+    save(gameName)
+end note
+SaveController ..> Coordinate
+Game *-down-> Turn
+note on link
+    save(gameName)
+end note
+Game *-down-> Board
+note on link
+    save(gameName)
+end note
+Board ..> Coordinate
+Board *-> Color
+Game ..> Coordinate
+Turn ..> Coordinate
+@enduml

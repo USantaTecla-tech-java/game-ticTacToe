@@ -1,0 +1,729 @@
+@startuml analisis
+package controllers  { }
+
+
+package models  { }
+
+package types  { }
+
+
+package views { }
+controllers .down.> models
+models .down.> types
+views .up.> controllers
+views .up.> types
+
+class  models.Board{
+
+}
+
+class  models.Game{
+
+}
+
+class  models.Player{
+
+}
+
+class  models.Turn{
+
+}
+
+class  types.Coordinate{
+
+}
+
+enum  types.Color{
+
+}
+
+enum  types.Error{
+
+}
+
+abstract class  controllers.Controller{
+
+}
+
+class  controllers.PlayController{
+
+}
+
+class  controllers.ResumeController{
+
+}
+
+class  controllers.StartController{
+
+}
+
+class  views.BoardView{
+
+}
+
+class  views.ErrorView{
+
+}
+
+class  views.PlayView{
+
+}
+
+class  views.ResumeView{
+
+}
+
+class views.StartView{
+
+}
+
+class  views.MovementView{
+
+}
+
+class  views.ColorView{
+
+}
+
+enum  views.Message{
+
+}
+
+class  views.PlayerView{
+
+}
+
+class views.CoordinateView {
+
+}
+
+views.PlayerView *-down-> views.StartView
+views.PlayerView *-down-> views.PlayView
+views.PlayerView *-down-> views.ResumeView
+views.StartView ..> views.Message
+views.StartView ..> views.BoardView
+views.BoardView ..> views.ColorView
+views.BoardView ..> views.Message
+views.PlayView ..> views.Message
+views.PlayView ..> views.BoardView
+views.PlayView ..> views.MovementView
+views.MovementView ..> views.ErrorView
+views.ResumeView ..> views.Message
+views.MovementView ..> views.CoordinateView
+
+controllers.Controller <|-- controllers.StartController
+controllers.Controller <|-- controllers.PlayController
+controllers.Controller <|-- controllers.ResumeController
+
+
+
+models.Game *-down-> models.Turn
+models.Game *-down-> models.Board
+models.Turn *-down-> models.Player
+models.Player --> models.Board
+@enduml
+
+@startuml start
+allow_mixing
+
+actor Player
+
+package controllers  {
+
+    object "startController\n:StartController" as StartController{
+
+    }
+}
+
+
+package models  {
+
+    object  Board{
+
+    }
+
+    object Game{
+
+    }
+
+}
+
+package types  {
+
+
+    object "coordinate\n:Coordinate" as Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+}
+
+
+package views {
+    object BoardView{
+
+    }
+
+    object StartView{
+
+    }
+
+    object ColorView{
+
+    }
+    object Message{
+
+    }
+}
+
+Player --> StartView
+note on link
+    start()
+end note
+StartView ..> Message
+note on link
+    write()
+end note
+StartView ..> BoardView
+note on link
+    write(startController)
+end note
+BoardView ..> ColorView
+note on link
+    write(color)
+end note
+BoardView ..> Message
+note on link
+    write()
+end note
+BoardView ..> Coordinate
+ColorView ..> Color
+BoardView ..> StartController
+note on link
+    getColor(coordinate)
+end note
+StartController --> Game
+note on link
+    getColor(coordinate)
+end note
+StartController ..> Coordinate
+Game *-down-> Board
+note on link
+    getColor(coordinate)
+end note
+Game ..> Coordinate
+Board ..> Coordinate
+Board *-> Color
+@enduml
+
+@startuml play
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object "playController\n:PlayController" as PlayController{
+
+    }
+}
+
+
+package models  {
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object "coordinate\n:Coordinate" as  Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+
+    object "error\n:Error" as  Error{
+
+    }
+}
+
+
+package views {
+
+    object BoardView{
+
+    }
+
+    object PlayView{
+
+    }
+
+    object MovementView{
+
+    }
+
+    object ColorView{
+
+    }
+
+    object ErrorView{
+
+    }
+
+    object Message{
+
+    }
+
+    object CoordinateView{
+
+    }
+}
+
+Playerr --> PlayView
+note on link
+    play()
+end note
+PlayView ..> Message
+note on link
+    write()
+end note
+PlayView ..> BoardView
+note on link
+    write(playController)
+end note
+PlayView ..> MovementView
+note on link
+    interact(playController)
+end note
+BoardView ..> ColorView
+note on link
+    write(color)
+end note
+BoardView ..> Message
+note on link
+    write()
+    writeln()
+end note
+BoardView ..> Coordinate
+ColorView ..> Color
+PlayView --> PlayController
+note on link
+    next()
+    isTicTacToe()
+end note
+MovementView ..> PlayController
+note on link
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+MovementView ..> CoordinateView
+note on link
+    read()
+end note
+CoordinateView ..> Coordinate
+MovementView ..> ErrorView
+note on link
+    write(error)
+end note
+MovementView ..> Coordinate
+MovementView ..> Error
+BoardView ..> PlayController
+note on link
+    getColor(coordinate)
+end note
+PlayController --> Game
+note on link
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+    next()
+    getActiveColor()
+    getColor(coordinate)
+    isTicTacToe()
+end note
+PlayController ..> Coordinate
+Game *-down-> Turn
+note on link
+    next()
+    getActiveColor()
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+Game *-down-> Board
+note on link
+    getColor(coordinate)
+    isTicTacToe()
+end note
+Board ..> Coordinate
+Board *-down-> Color
+ErrorView ..> Error
+Turn ..> Board
+note on link
+    isTicTacToe()
+end note
+Turn ..> Coordinate
+Turn *-down-> Player
+note on link
+    getColor()
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+Player ..> Coordinate
+Player ..> Error
+Player --> Board
+Player --> Color
+Game ..> Coordinate
+@enduml
+
+@startuml resume
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object ResumeController{
+
+    }
+}
+
+
+package models  {
+
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object Coordinate{
+
+    }
+
+    object Color{
+
+    }
+}
+
+
+package views {
+
+    object ResumeView{
+
+    }
+
+    object Message{
+
+    }
+}
+
+Playerr --> ResumeView
+note on link
+    resume()
+end note
+ResumeView --> ResumeController
+note on link
+    reset()
+end note
+ResumeView ..> Message
+note on link
+    write()
+end note
+ResumeController --> Game
+note on link
+    reset()
+end note
+ResumeController ..> Coordinate
+Game *-down-> Turn
+note on link
+    reset()
+end note
+Game *-down-> Board
+note on link
+    reset()
+end note
+Board ..> Coordinate
+Board *-> Color
+Game ..> Coordinate
+Player ..> Coordinate
+Player --> Board
+Player --> Color
+Turn *-down-> Player
+note on link
+    new()
+end note
+@enduml
+
+@startuml arquitectura-paquetes
+package models #DDDDDD { }
+package views #DDDDDD { }
+package controllers #DDDDDD { }
+package types #DDDDDD { }
+views .down.> controllers
+views .down.> types
+controllers .down.> models
+controllers .down.> types
+models .down.> types
+@enduml
+
+@startuml packageViews
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+enum Color as "types.\nColor"
+class StartController as "controllers.\nStartController"
+class PlayController as "controllers.\nPlayController"
+class ResumeController as "controllers.\nResumeController"
+
+class  views.BoardView{
+    ~ write(StartController)
+}
+
+class  views.ErrorView{
+    ~ writeln(Error)
+}
+
+class  views.PlayView{
+    ~ play(PlayController)
+}
+
+class  views.ResumeView{
+    ~ resume(ResumeController): boolean
+}
+
+class views.StartView{
+    ~ start(StartController)
+}
+
+class  views.MovementView{
+    ~ interact()
+}
+
+class  views.ColorView{
+    ~ write(Color)
+}
+
+enum  views.Message{
+    +TITLE
+    +HORIZONTAL_LINE
+    +VERTICAL_LINE
+    +ACTION_COMMAND
+    +UNDO_COMMAND
+    +REDO_COMMAND
+    +ENTER_COORDINATE_TO_PUT
+    +COORDINATE_TO_PUT
+    +COORDINATE_TO_REMOVE
+    +COORDINATE_TO_MOVE
+    +PLAYER_WIN
+    +RESUME
+    ~ writeln()
+    ~ write()
+}
+
+class  views.PlayerView{
+    
+}
+
+class  views.CoordinateView{
+    ~ read(): Coordinate
+}
+
+views.PlayerView *-down-> views.StartView
+views.PlayerView *-down-> views.PlayView
+views.PlayerView *-down-> views.ResumeView
+views.StartView ..> views.Message
+views.StartView ..> views.BoardView
+views.StartView -down-> StartController
+views.BoardView ..> views.ColorView
+views.BoardView ..> views.Message
+views.PlayView ..> views.Message
+views.PlayView ..> views.BoardView
+views.PlayView ..> views.MovementView
+views.MovementView ..> views.ErrorView
+views.ResumeView ..> views.Message
+views.ResumeView -down-> ResumeController
+views.BoardView .down.> Coordinate
+views.MovementView .down.> Coordinate
+views.BoardView .down.> StartController
+views.BoardView .down.> Color
+views.MovementView .down.> Error
+views.ErrorView .down.> Error
+views.PlayView -down- PlayController
+views.ColorView .down.> Color
+views.CoordinateView .down.> Coordinate
+views.MovementView ..> views.CoordinateView
+@enduml
+
+@startuml packageControllers
+class Coordinate as "types.\nCoordinate"
+enum Color as "types.\nColor"
+enum Error as "types.\nError"
+class Game as "models.\nGame"
+
+abstract class  controllers.Controller{
+    + getColor(Coordinate): Color
+}
+
+class  controllers.PlayController{
+    +areAllTokensOnBoard(): boolean
+    +putToken(Coordinate)
+    +getPutTokenError(Coordinate): Error
+    +moveToken(Coordinate, Coordinate)
+    +getOriginMoveTokenError(Coordinate): Error
+    +getTargetMoveTokenError(Coordinate, Coordinate): Error
+    +next()
+    +getActiveColor(): Color
+    +isTicTacToe(): boolean
+}
+
+class  controllers.ResumeController{
+    +reset()
+}
+
+class  controllers.StartController{
+
+}
+
+
+controllers.Controller <|-- controllers.StartController
+controllers.Controller <|-- controllers.PlayController
+controllers.Controller <|-- controllers.ResumeController
+
+controllers.Controller .down.> Coordinate
+controllers.Controller --> Game
+controllers.Controller ..> Color
+controllers.PlayController .down.> Error
+@enduml
+
+@startuml modelspackage
+
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+enum Color as "types.\nColor"
+
+class  models.Board{
+    ~reset()
+    ~isTicTacToe(): boolean
+    ~getColor(Coordinate): Color
+}
+
+class  models.Game{
+    +reset()
+    +areAllTokensOnBoard(): boolean
+    +putToken(Coordinate)
+    +getPutTokenError(Coordinate): Error
+    +moveToken(Coordinate, Coordinate)
+    +getOriginMoveTokenError(Coordinate): Error
+    +getTargetMoveTokenError(Coordinate, Coordinate): Error
+    +next()
+    +getActiveColor(): Color
+    +isTicTacToe(): boolean
+    +getColor(Coordinate): Color
+}
+
+class  models.Player{
+    ~getColor(): Color
+    ~areAllTokensOnBoard(): boolean
+    ~putToken(Coordinate)
+    ~getPutTokenError(Coordinate): Error
+    ~moveToken(Coordinate, Coordinate)
+    ~getOriginMoveTokenError(Coordinate): Error
+    ~getTargetMoveTokenError(Coordinate, Coordinate): Error
+}
+
+class  models.Turn{
+    ~reset()
+    ~next()
+    ~getActiveColor(): Color
+    ~areAllTokensOnBoard(): boolean
+    ~putToken(Coordinate)
+    ~getPutTokenError(Coordinate): Error
+    ~moveToken(Coordinate, Coordinate)
+    ~getOriginMoveTokenError(Coordinate): Error
+    ~getTargetMoveTokenError(Coordinate, Coordinate): Error
+}
+
+models.Game *-down-> models.Turn
+models.Game *-down-> models.Board
+models.Turn *-down-> models.Player
+models.Turn ..> Coordinate
+models.Player ..> Coordinate
+models.Player --> models.Board
+models.Board *-down-> Color
+models.Turn ..> Color
+models.Game ..> Color
+models.Board ..> Coordinate
+models.Player --> Color
+models.Player ..> Error
+models.Turn ..> Error
+models.Game ..> Error
+models.Game ..> Coordinate
+@enduml
+
+@startuml typespackages
+package types  { }
+
+class  types.Coordinate{
+    #getDimension()
+    +equals(Object)
+}
+
+enum  types.Color{
+    +X
+    +O
+    +NULL
+    +get(Int)
+    +isNull()
+}
+
+enum  types.Error{
+    +NOT_EMPTY
+    +NOT_OWNER
+    +SAME_COORDINATES
+    +WRONG_COORDINATES
+    +NULL
+    +isNull()
+}
+@enduml

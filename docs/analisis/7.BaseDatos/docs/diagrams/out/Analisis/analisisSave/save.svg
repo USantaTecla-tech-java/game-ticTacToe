@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="823px" preserveAspectRatio="none" style="width:492px;height:823px;" version="1.1" viewBox="0 0 492 823" width="492px" zoomAndPan="magnify"><defs><filter height="300%" id="f7bjz7ixxpwfq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f7bjz7ixxpwfq)" points="266,324.5,361,324.5,368,346.7969,402,346.7969,402,409.5,266,409.5,266,324.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="266" x2="368" y1="346.7969" y2="346.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="270" y="339.4951">controllers</text><!--MD5=[a60570e4b426f702ccbb0d459e3b9417]
+cluster models--><polygon fill="#FFFFFF" filter="url(#f7bjz7ixxpwfq)" points="16,480.5,80,480.5,87,502.7969,425,502.7969,425,698.5,16,698.5,16,480.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="87" y1="502.7969" y2="502.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="20" y="495.4951">models</text><!--MD5=[67cd15ce44b6dd54f77054b62c31bf42]
+cluster types--><polygon fill="#FFFFFF" filter="url(#f7bjz7ixxpwfq)" points="180,731.5,231,731.5,238,753.7969,373,753.7969,373,816.5,180,816.5,180,731.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="180" x2="238" y1="753.7969" y2="753.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="184" y="746.4951">types</text><!--MD5=[e2a75efa8a0f57c2afae8bf75386f79c]
+cluster views--><polygon fill="#FFFFFF" filter="url(#f7bjz7ixxpwfq)" points="98,170.5,149,170.5,156,192.7969,242,192.7969,242,409.5,98,409.5,98,170.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="98" x2="156" y1="192.7969" y2="192.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="102" y="185.4951">views</text><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="103" x="282.5" y="359.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="289.5" y="372.6387">SaveController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="283.5" x2="384.5" y1="377.4688" y2="377.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="50" x="194" y="648.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="201" y="661.6387">Board</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195" x2="243" y1="666.4688" y2="666.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="49" x="251.5" y="515.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="258.5" y="528.6387">Game</text><line style="stroke:#A80036;stroke-width:1.5;" x1="252.5" x2="299.5" y1="533.4688" y2="533.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="40" x="288" y="648.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="295" y="661.6387">Turn</text><line style="stroke:#A80036;stroke-width:1.5;" x1="289" x2="327" y1="666.4688" y2="666.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="80" x="277" y="766.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="66" x="284" y="779.6387">Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="278" x2="356" y1="784.4688" y2="784.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="46" x="196" y="766.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="203" y="779.6387">Color</text><line style="stroke:#A80036;stroke-width:1.5;" x1="197" x2="241" y1="784.4688" y2="784.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="73" x="133.5" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="140.5" y="218.6387">SaveView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="134.5" x2="205.5" y1="223.4688" y2="223.4688"/><rect fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="69" x="114.5" y="359.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="121.5" y="372.6387">Message</text><line style="stroke:#A80036;stroke-width:1.5;" x1="115.5" x2="182.5" y1="377.4688" y2="377.4688"/><!--MD5=[fb2f237e4154b78a31e896754c8f6e24]
+entity Playerr--><ellipse cx="170" cy="14" fill="#FEFECE" filter="url(#f7bjz7ixxpwfq)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M170,22 L170,49 M157,30 L183,30 M170,49 L157,64 M170,49 L183,64 " fill="none" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="148" y="82.4951">Player</text><!--MD5=[36bc17a3da7433a6dea07e779d982029]
+link Playerr to SaveView--><path codeLine="50" d="M170,85.824 C170,121.431 170,172.226 170,200.482 " fill="none" id="Playerr-to-SaveView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="170,205.487,174,196.487,170,200.487,166,196.487,170,205.487" style="stroke:#A80036;stroke-width:1.0;"/><path d="M175,120.5 L175,145.5 L237,145.5 L237,130.5 L227,120.5 L175,120.5 " fill="#FBFB77" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M227,120.5 L227,130.5 L237,130.5 L227,120.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="181" y="137.5669">save()</text><!--MD5=[0ed76daaaa8eb9a2c7db88a82d6377c4]
+link SaveView to SaveController--><path codeLine="54" d="M203.692,239.568 C218.428,247.461 235.412,257.795 249,269.5 C278.656,295.047 305.58,332.012 320.853,354.858 " fill="none" id="SaveView-to-SaveController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="323.75,359.232,322.1144,349.5199,320.9887,355.0636,315.445,353.938,323.75,359.232" style="stroke:#A80036;stroke-width:1.0;"/><path d="M291,274.5 L291,299.5 L428,299.5 L428,284.5 L418,274.5 L291,274.5 " fill="#FBFB77" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M418,274.5 L418,284.5 L428,284.5 L418,274.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="297" y="291.5669">save(gameName)</text><!--MD5=[03d51df82c773ffb87e719fb137cf12c]
+link SaveView to Message--><path codeLine="58" d="M167.753,239.767 C163.932,267.422 156.172,323.586 151.931,354.288 " fill="none" id="SaveView-to-Message" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="151.231,359.35,156.4251,350.9821,151.9153,354.397,148.5004,349.8872,151.231,359.35" style="stroke:#A80036;stroke-width:1.0;"/><path d="M169,274.5 L169,299.5 L232,299.5 L232,284.5 L222,274.5 L169,274.5 " fill="#FBFB77" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M222,274.5 L222,284.5 L232,284.5 L222,274.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="175" y="291.5669">write()</text><!--MD5=[5e760738fc37980bff143068aa48a973]
+link SaveController to Game--><path codeLine="62" d="M327.903,393.69 C317.357,421.691 295.716,479.151 283.985,510.299 " fill="none" id="SaveController-to-Game" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="282.19,515.064,289.1046,508.0505,283.9517,510.3846,281.6176,505.2318,282.19,515.064" style="stroke:#A80036;stroke-width:1.0;"/><path d="M321,430.5 L321,455.5 L458,455.5 L458,440.5 L448,430.5 L321,430.5 " fill="#FBFB77" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M448,430.5 L448,440.5 L458,440.5 L448,430.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="327" y="447.5669">save(gameName)</text><!--MD5=[2adebd615d0b4ab29eb973fa04095de7]
+link SaveController to Coordinate--><path codeLine="66" d="M385.803,380.617 C417.142,385.495 454.829,397.326 475,425.5 C485.09,439.594 476.763,447.257 475,464.5 C463.831,573.758 485.249,614.674 425,706.5 C408.433,731.75 380.323,751.1361 356.934,764.0084 " fill="none" id="SaveController-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="352.324,766.4958,362.144,765.7423,356.7243,764.1215,358.3451,758.7018,352.324,766.4958" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b9f1e39ad85d50fe6f3a071a4341c320]
+link Game to Turn--><path codeLine="67" d="M260.4791,560.5089 C260.4791,560.5089 246.755,600.427 255,618.5 C259.817,629.06 268.389,638.131 277.253,645.358 " fill="none" id="Game-Turn" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="287.979,653.236,283.0934,644.6843,283.9493,650.2761,278.3575,651.1319,287.979,653.236" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="283.9493" x2="277.5015" y1="650.2761" y2="645.54"/><polygon fill="#A80036" points="265.804,549.755,259.5569,553.357,260.4791,560.5089,266.7262,556.9069,265.804,549.755" style="stroke:#A80036;stroke-width:1.0;"/><path d="M260,584.5 L260,609.5 L397,609.5 L397,594.5 L387,584.5 L260,584.5 " fill="#FBFB77" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M387,584.5 L387,594.5 L397,594.5 L387,584.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="266" y="601.5669">save(gameName)</text><!--MD5=[15c8f9ca3aac13d865864b4eb5314ef1]
+link Game to Board--><path codeLine="71" d="M239.3361,537.3857 C239.3361,537.3857 109.79,556.715 92,579.5 C81.3329,593.162 82.0469,604.309 92,618.5 C111.878,646.842 151.061,657.793 180.675,661.986 " fill="none" id="Game-Board" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="193.91,663.512,185.4278,658.5068,188.943,662.9389,184.5108,666.4541,193.91,663.512" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="188.943" x2="180.9955" y1="662.9389" y2="662.023"/><polygon fill="#A80036" points="251.253,535.976,244.8247,532.7085,239.3361,537.3857,245.7644,540.6531,251.253,535.976" style="stroke:#A80036;stroke-width:1.0;"/><path d="M97,584.5 L97,609.5 L234,609.5 L234,594.5 L224,584.5 L97,584.5 " fill="#FBFB77" filter="url(#f7bjz7ixxpwfq)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M224,584.5 L224,594.5 L234,594.5 L224,584.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="103" y="601.5669">save(gameName)</text><!--MD5=[a416983a2bb8ca1c26830059e75eb56a]
+link Board to Coordinate--><path codeLine="75" d="M232.626,682.629 C250.154,703.376 280.61,739.4262 299.739,762.0686 " fill="none" id="Board-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="303.173,766.1337,300.4192,756.6777,299.9458,762.3147,294.3088,761.8413,303.173,766.1337" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e8e56f95b2bfb8e03c3cdf9f0e0c50ee]
+link Board to Color--><path codeLine="76" d="M219,694.629 C219,694.629 219,735.3672 219,752.9394 " fill="none" id="Board-Color" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="219,766.1337,223,757.1337,219,761.1337,215,757.1337,219,766.1337" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="219" x2="219" y1="761.1337" y2="753.1338"/><polygon fill="#A80036" points="219,682.629,215,688.629,219,694.629,223,688.629,219,682.629" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[38c50a8ee4193cef2ba89eed25959423]
+link Game to Coordinate--><path codeLine="77" d="M300.513,533.897 C331.859,535.886 385.059,544.569 410,579.5 C453.535,640.473 378.333,725.082 338.861,762.8876 " fill="none" id="Game-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="335.157,766.3978,344.4405,763.109,338.7857,762.958,338.9368,757.3031,335.157,766.3978" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[781d98dc8236ff72985a20e2d8f79439]
+link Turn to Coordinate--><path codeLine="78" d="M309.251,682.629 C310.834,703.031 313.566,738.2337 315.326,760.9303 " fill="none" id="Turn-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="315.73,766.1337,319.0216,756.8512,315.3431,761.1487,311.0456,757.4702,315.73,766.1337" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a25519e6db29e28452e198ef1e2f5bbe]
+@startuml
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object SaveController{
+
+    }
+}
+
+package models  {
+
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+}
+
+package types  {
+
+    object Coordinate{
+
+    }
+
+    object Color{
+
+    }
+}
+
+
+package views {
+
+    object SaveView{
+
+    }
+
+    object Message{
+
+    }
+}
+
+Playerr - -> SaveView
+note on link
+    save()
+end note
+SaveView - -> SaveController
+note on link
+    save(gameName)
+end note
+SaveView ..> Message
+note on link
+    write()
+end note
+SaveController - -> Game
+note on link
+    save(gameName)
+end note
+SaveController ..> Coordinate
+Game *-down-> Turn
+note on link
+    save(gameName)
+end note
+Game *-down-> Board
+note on link
+    save(gameName)
+end note
+Board ..> Coordinate
+Board *-> Color
+Game ..> Coordinate
+Turn ..> Coordinate
+@enduml
+
+PlantUML version 1.2021.4beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,89 @@
+@startuml resume
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object ResumeController{
+
+    }
+}
+
+package models  {
+
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object Coordinate{
+
+    }
+
+    object Color{
+
+    }
+}
+
+
+package views {
+
+    object ResumeView{
+
+    }
+
+    object Message{
+
+    }
+}
+
+Playerr --> ResumeView
+note on link
+    resume()
+end note
+ResumeView --> ResumeController
+note on link
+    reset()
+end note
+ResumeView ..> Message
+note on link
+    write()
+end note
+ResumeController --> Game
+note on link
+    reset()
+end note
+ResumeController ..> Coordinate
+Game *-down-> Turn
+note on link
+    reset()
+end note
+Game *-down-> Board
+note on link
+    reset()
+end note
+Board ..> Coordinate
+Board *-> Color
+Game ..> Coordinate
+Player ..> Coordinate
+Player --> Board
+Player --> Color
+Turn *-down-> Player
+note on link
+    new()
+end note
+@enduml

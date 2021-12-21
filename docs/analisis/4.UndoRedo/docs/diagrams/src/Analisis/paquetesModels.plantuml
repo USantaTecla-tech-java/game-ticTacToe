@@ -1,0 +1,72 @@
+@startuml modelspackage
+
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+enum Color as "types.\nColor"
+
+class  models.Board{
+    ~reset()
+    ~isTicTacToe(): boolean
+    ~getColor(Coordinate): Color
+    ~undoable(): boolean
+    ~undo()
+    ~redoable(): boolean
+    ~redo()
+}
+
+class  models.Game{
+    +reset()
+    +areAllTokensOnBoard(): boolean
+    +putToken(Coordinate)
+    +getPutTokenError(Coordinate): Error
+    +moveToken(Coordinate, Coordinate)
+    +getOriginMoveTokenError(Coordinate): Error
+    +getTargetMoveTokenError(Coordinate, Coordinate): Error
+    +next()
+    +getActiveColor(): Color
+    +isTicTacToe(): boolean
+    +getColor(Coordinate): Color
+    +undoable(): boolean
+    +undo()
+    +redoable(): boolean
+    +redo()
+}
+
+class  models.Player{
+    ~getColor(): Color
+    ~areAllTokensOnBoard(): boolean
+    ~putToken(Coordinate)
+    ~getPutTokenError(Coordinate): Error
+    ~moveToken(Coordinate, Coordinate)
+    ~getOriginMoveTokenError(Coordinate): Error
+    ~getTargetMoveTokenError(Coordinate, Coordinate): Error
+}
+
+class  models.Turn{
+    ~reset()
+    ~next()
+    ~getActiveColor(): Color
+    ~areAllTokensOnBoard(): boolean
+    ~putToken(Coordinate)
+    ~getPutTokenError(Coordinate): Error
+    ~moveToken(Coordinate, Coordinate)
+    ~getOriginMoveTokenError(Coordinate): Error
+    ~getTargetMoveTokenError(Coordinate, Coordinate): Error
+}
+
+models.Game *-down-> models.Turn
+models.Game *-down-> models.Board
+models.Turn *-down-> models.Player
+models.Turn ..> Coordinate
+models.Player ..> Coordinate
+models.Player --> models.Board
+models.Board *-down-> Color
+models.Turn ..> Color
+models.Game ..> Color
+models.Board ..> Coordinate
+models.Player --> Color
+models.Player ..> Error
+models.Turn ..> Error
+models.Game ..> Error
+models.Game ..> Coordinate
+@enduml

@@ -1,0 +1,13 @@
+@startuml diseño_la_arquitectura
+
+node node #DDDDDD [
+<b>Personal Computer</b>
+----
+
+]
+
+[ tictactoe.jar ] as component
+
+node *--> component
+
+@enduml

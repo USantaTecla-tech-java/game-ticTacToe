@@ -1,0 +1,165 @@
+@startuml analisis
+package controllers  { }
+
+
+package models  { }
+
+package types  { }
+
+
+package views { }
+controllers .down.> models
+models .down.> types
+views .up.> controllers
+views .up.> types
+
+class  models.Board{
+
+}
+
+class  models.Game{
+
+}
+
+class  models.Player{
+
+}
+
+class  models.Turn{
+
+}
+
+class  types.Coordinate{
+
+}
+
+enum  types.Color{
+
+}
+
+enum  types.Error{
+
+}
+
+abstract class  controllers.Controller{
+
+}
+
+class  controllers.PlayController{
+
+}
+
+class  controllers.ResumeController{
+
+}
+
+class  controllers.StartController{
+
+}
+
+class  controllers.UndoController{
+
+}
+
+class  controllers.RedoController{
+
+}
+
+class  controllers.SaveController{
+
+}
+
+class  controllers.OpenController{
+
+}
+
+class  controllers.ExitController{
+
+}
+
+class  views.BoardView{
+
+}
+
+class  views.ErrorView{
+
+}
+
+class  views.PlayView{
+
+}
+
+class  views.ResumeView{
+
+}
+
+class views.StartView{
+
+}
+
+class  views.MovementView{
+
+}
+
+class  views.ColorView{
+
+}
+
+enum  views.Message{
+
+}
+
+class  views.PlayerView{
+
+}
+
+class views.CoordinateView {
+
+}
+
+class views.MenuView {
+
+}
+
+class views.OpenView {
+
+}
+
+class views.SaveView {
+
+}
+
+views.PlayView ..> views.MenuView
+views.PlayerView *-down-> views.StartView
+views.PlayerView *-down-> views.PlayView
+views.PlayerView *-down-> views.ResumeView
+views.PlayerView *-down-> views.SaveView
+views.StartView ..> views.Message
+views.StartView ..> views.OpenView
+views.OpenView ..> views.Message
+views.SaveView ..> views.Message
+views.StartView ..> views.BoardView
+views.BoardView ..> views.ColorView
+views.BoardView ..> views.Message
+views.PlayView ..> views.Message
+views.PlayView ..> views.BoardView
+views.MenuView ..> views.MovementView
+views.MenuView ..> views.Message
+views.MovementView ..> views.ErrorView
+views.ResumeView ..> views.Message
+views.MovementView ..> views.CoordinateView
+
+controllers.Controller <|-- controllers.StartController
+controllers.Controller <|-- controllers.PlayController
+controllers.Controller <|-- controllers.ResumeController
+controllers.Controller <|-- controllers.UndoController
+controllers.Controller <|-- controllers.RedoController
+controllers.Controller <|-- controllers.ExitController
+controllers.Controller <|-- controllers.SaveController
+controllers.Controller <|-- controllers.OpenController
+
+models.Game *-down-> models.Turn
+models.Game *-down-> models.Board
+models.Turn *-down-> models.Player
+models.Player --> models.Board
+@enduml

@@ -1,0 +1,11 @@
+@startuml arquitectura-paquetes
+package models #DDDDDD { }
+package views #DDDDDD { }
+package controllers #DDDDDD { }
+package types #DDDDDD { }
+views .down.> controllers
+views .down.> types
+controllers .down.> models
+controllers .down.> types
+models .down.> types
+@enduml

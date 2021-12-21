@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1262px" preserveAspectRatio="none" style="width:861px;height:1262px;" version="1.1" viewBox="0 0 861 1262" width="861px" zoomAndPan="magnify"><defs><filter height="300%" id="f7wco2m4kjpzz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f7wco2m4kjpzz)" points="558,507.5,653,507.5,660,529.7969,700,529.7969,700,606.5,558,606.5,558,507.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="558" x2="660" y1="529.7969" y2="529.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="562" y="522.4951">controllers</text><!--MD5=[a60570e4b426f702ccbb0d459e3b9417]
+cluster models--><polygon fill="#FFFFFF" filter="url(#f7wco2m4kjpzz)" points="259,707.5,323,707.5,330,729.7969,592,729.7969,592,1123.5,259,1123.5,259,707.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="259" x2="330" y1="729.7969" y2="729.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="263" y="722.4951">models</text><!--MD5=[67cd15ce44b6dd54f77054b62c31bf42]
+cluster types--><polygon fill="#FFFFFF" filter="url(#f7wco2m4kjpzz)" points="214,1156.5,265,1156.5,272,1178.7969,415,1178.7969,415,1255.5,214,1255.5,214,1156.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="214" x2="272" y1="1178.7969" y2="1178.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="218" y="1171.4951">types</text><!--MD5=[e2a75efa8a0f57c2afae8bf75386f79c]
+cluster views--><polygon fill="#FFFFFF" filter="url(#f7wco2m4kjpzz)" points="16,170.5,67,170.5,74,192.7969,489,192.7969,489,599.5,16,599.5,16,170.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="74" y1="192.7969" y2="192.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="20" y="185.4951">views</text><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="109" x="574.5" y="542.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="584.5" y="555.6387">undoController</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="581.5" y="569.6074">:UndoController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="575.5" x2="682.5" y1="574.4375" y2="574.4375"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="50" x="306" y="1073.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="313" y="1086.6387">Board</text><line style="stroke:#A80036;stroke-width:1.5;" x1="307" x2="355" y1="1091.4688" y2="1091.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="49" x="335.5" y="742.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="342.5" y="755.6387">Game</text><line style="stroke:#A80036;stroke-width:1.5;" x1="336.5" x2="383.5" y1="760.4688" y2="760.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="40" x="294" y="908"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="301" y="921.1387">Turn</text><line style="stroke:#A80036;stroke-width:1.5;" x1="295" x2="333" y1="925.9688" y2="925.9688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="50" x="391" y="1073.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="398" y="1086.6387">Player</text><line style="stroke:#A80036;stroke-width:1.5;" x1="392" x2="440" y1="1091.4688" y2="1091.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="84" x="230" y="1191.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="239.5" y="1204.6387">coordinate</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="237" y="1218.6074">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="231" x2="313" y1="1223.4375" y2="1223.4375"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="50" x="349" y="1191.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="358.5" y="1204.6387">color</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="356" y="1218.6074">:Color</text><line style="stroke:#A80036;stroke-width:1.5;" x1="350" x2="398" y1="1223.4375" y2="1223.4375"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="79" x="32.5" y="348.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="39.5" y="361.6387">BoardView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="110.5" y1="366.4688" y2="366.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="66" x="231" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="238" y="218.6387">PlayView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="232" x2="296" y1="223.4688" y2="223.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="75" x="356.5" y="348.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="363.5" y="361.6387">MenuView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="357.5" x2="430.5" y1="366.4688" y2="366.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="75" x="62.5" y="549.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="69.5" y="562.6387">ColorView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="63.5" x2="136.5" y1="567.4688" y2="567.4688"/><rect fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="69" x="274.5" y="549.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="281.5" y="562.6387">Message</text><line style="stroke:#A80036;stroke-width:1.5;" x1="275.5" x2="342.5" y1="567.4688" y2="567.4688"/><!--MD5=[fb2f237e4154b78a31e896754c8f6e24]
+entity Playerr--><ellipse cx="264" cy="14" fill="#FEFECE" filter="url(#f7wco2m4kjpzz)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M264,22 L264,49 M251,30 L277,30 M264,49 L251,64 M264,49 L277,64 " fill="none" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="242" y="82.4951">Player</text><!--MD5=[0b62945baee8d22da13b207ab2370f57]
+link Playerr to PlayView--><path codeLine="65" d="M264,85.82 C264,121.43 264,172.23 264,200.48 " fill="none" id="Playerr-to-PlayView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="264,205.49,268,196.49,264,200.49,260,196.49,264,205.49" style="stroke:#A80036;stroke-width:1.0;"/><path d="M269,120.5 L269,145.5 L332,145.5 L332,130.5 L322,120.5 L269,120.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M322,120.5 L322,130.5 L332,130.5 L322,120.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="275" y="137.5669">undo()</text><!--MD5=[e55bac01230a56de5b831ff1fe3e7165]
+link PlayView to Message--><path codeLine="69" d="M263.626,239.88 C263.136,262.18 262.306,303.357 262,338.5 C261.791,362.499 251.018,371.16 262,392.5 C272.497,412.897 293.148,402.289 304,422.5 C314.931,442.859 312.615,509.153 310.533,543.863 " fill="none" id="PlayView-to-Message" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="310.203,549.151,314.7558,540.4176,310.5144,544.1607,306.7714,539.9193,310.203,549.151" style="stroke:#A80036;stroke-width:1.0;"/><path d="M267,351 L267,376 L330,376 L330,361 L320,351 L267,351 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M320,351 L320,361 L330,361 L320,351 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="273" y="368.0669">write()</text><!--MD5=[df6dfd0189eff65051b97f6f6f0a9eb9]
+link PlayView to BoardView--><path codeLine="73" d="M230.701,226.24 C179.318,231.24 84.4711,243.79 64,269.5 C47.3939,290.359 54.8539,322.582 62.6683,343.609 " fill="none" id="PlayView-to-BoardView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="64.5423,348.438,65.0159,338.6005,62.7337,343.7766,57.5576,341.4943,64.5423,348.438" style="stroke:#A80036;stroke-width:1.0;"/><path d="M69,274.5 L69,299.5 L226,299.5 L226,284.5 L216,274.5 L69,274.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M216,274.5 L216,284.5 L226,284.5 L216,274.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="75" y="291.5669">write(undoController)</text><!--MD5=[846c85d35f4a93f43b9e7108f510cad0]
+link MenuView to Message--><path codeLine="77" d="M377.036,382.722 C366.976,393.207 354.722,407.631 347,422.5 C326.158,462.633 316.011,515.192 311.706,544.109 " fill="none" id="MenuView-to-Message" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="310.969,549.225,316.2114,540.8873,311.6819,544.2761,308.2931,539.7466,310.969,549.225" style="stroke:#A80036;stroke-width:1.0;"/><path d="M352,442.5 L352,467.5 L415,467.5 L415,452.5 L405,442.5 L352,442.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M405,442.5 L405,452.5 L415,452.5 L405,442.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="358" y="459.5669">write()</text><!--MD5=[50d2c791ff67128bf0c4b51052450f86]
+link BoardView to ColorView--><path codeLine="81" d="M68.0675,382.524 C62.8225,406.539 55.1653,453.144 64,491.5 C68.3793,510.513 78.3307,530.299 86.6632,544.623 " fill="none" id="BoardView-to-ColorView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="89.4166,549.262,88.2639,539.4808,86.8651,544.962,81.3839,543.5632,89.4166,549.262" style="stroke:#A80036;stroke-width:1.0;"/><path d="M69,442.5 L69,467.5 L163,467.5 L163,452.5 L153,442.5 L69,442.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M153,442.5 L153,452.5 L163,452.5 L153,442.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="75" y="459.5669">write(color)</text><!--MD5=[1c72537bfbab1e04487289dc6e74ec01]
+link MenuView to UndoController--><path codeLine="85" d="M431.642,369.658 C492.941,375.666 610.02,391.05 635,422.5 C660.819,455.006 650.384,505.986 640.018,537.484 " fill="none" id="MenuView-to-UndoController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="638.36,542.366,645.0408,535.1295,639.9673,537.6314,637.4654,532.5579,638.36,542.366" style="stroke:#A80036;stroke-width:1.0;"/><path d="M656,427.5 L656,482.5 L746,482.5 L746,437.5 L736,427.5 L656,427.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M736,427.5 L736,437.5 L746,437.5 L736,427.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="662" y="444.5669">undoable()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="662" y="459.6997">redoable()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="662" y="474.8325">undo()</text><!--MD5=[02a16ebf8539d2e5d44c3be387606aac]
+link BoardView to Message--><path codeLine="91" d="M111.682,381.153 C132.776,390.478 157.993,404.257 176,422.5 C200.298,447.118 189.717,465.044 212,491.5 C230.599,513.582 256.891,533.128 277.411,546.578 " fill="none" id="BoardView-to-Message" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="281.698,549.354,276.3187,541.104,277.5014,546.6358,271.9696,547.8185,281.698,549.354" style="stroke:#A80036;stroke-width:1.0;"/><path d="M217,435 L217,475 L291,475 L291,445 L281,435 L217,435 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M281,435 L281,445 L291,445 L281,435 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="223" y="452.0669">write()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="223" y="467.1997">writeln()</text><!--MD5=[3691da1176459d67ce486a3614a47073]
+link BoardView to Coordinate--><path codeLine="96" d="M63.1073,382.719 C45.7413,415.958 9,494.654 9,565.5 C9,565.5 9,565.5 9,1091.5 C9,1185.5199 148.618,1207.8294 224.401,1213.0138 " fill="none" id="BoardView-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="229.745,1213.3583,221.0208,1208.788,224.7553,1213.0369,220.5065,1216.7714,229.745,1213.3583" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3abc1ba542d5588e5c5da3a0bcadd8b9]
+link PlayView to UndoController--><path codeLine="97" d="M297.308,223.7 C393.565,226.36 671.087,249.28 763,422.5 C777.374,449.589 778.585,465.089 763,491.5 C746.785,518.978 716.308,536.958 688.513,548.305 " fill="none" id="PlayView-to-UndoController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="683.719,550.209,693.5599,550.6044,688.3659,548.3634,690.6069,543.1694,683.719,550.209" style="stroke:#A80036;stroke-width:1.0;"/><path d="M746,343.5 L746,383.5 L852,383.5 L852,353.5 L842,343.5 L746,343.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M842,343.5 L842,353.5 L852,353.5 L842,343.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="752" y="360.5669">next()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="752" y="375.6997">isTicTacToe()</text><!--MD5=[784b7cd0a72be97acc3c01f2ec880361]
+link PlayView to MenuView--><path codeLine="102" d="M278.913,239.67 C302.687,265.46 349.143,315.847 375.174,344.081 " fill="none" id="PlayView-to-MenuView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="378.861,348.08,375.7017,338.7516,375.472,344.4038,369.8198,344.174,378.861,348.08" style="stroke:#A80036;stroke-width:1.0;"/><path d="M346,274.5 L346,299.5 L520,299.5 L520,284.5 L510,274.5 L346,274.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M510,274.5 L510,284.5 L520,284.5 L510,274.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="352" y="291.5669">interact(undoController)</text><!--MD5=[00735f3197757a65864a5c2b48d80efb]
+link BoardView to UndoController--><path codeLine="106" d="M111.679,375.218 C137.127,380.631 170.915,387.486 201,392.5 C251.191,400.865 387.005,392.359 428,422.5 C455.235,442.524 434.208,469.649 460,491.5 C470.202,500.143 476.463,494.855 489,499.5 C520.203,511.062 553.978,526.882 580.535,540.135 " fill="none" id="BoardView-to-UndoController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="585.07,542.408,578.8158,534.7998,580.5999,540.1679,575.2317,541.952,585.07,542.408" style="stroke:#A80036;stroke-width:1.0;"/><path d="M465,442.5 L465,467.5 L618,467.5 L618,452.5 L608,442.5 L465,442.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M608,442.5 L608,452.5 L618,452.5 L608,442.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="471" y="459.5669">getColor(coordinate)</text><!--MD5=[8e66520b78dcff0ee07d43bf6b0a5606]
+link UndoController to Game--><path codeLine="110" d="M574.204,585.447 C550.081,594.639 522.051,607.154 499,622.5 C448.643,656.025 400.68,709.249 376.432,738.17 " fill="none" id="UndoController-to-Game" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="373.029,742.256,381.8627,737.9011,376.2292,738.4143,375.716,732.7808,373.029,742.256" style="stroke:#A80036;stroke-width:1.0;"/><path d="M504,627.5 L504,682.5 L594,682.5 L594,637.5 L584,627.5 L504,627.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M584,627.5 L584,637.5 L594,637.5 L584,627.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="510" y="644.5669">redoable()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="510" y="659.6997">undoable()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="510" y="674.8325">undo()</text><!--MD5=[214ce705d28cca2d14ed2a312bb7dc52]
+link UndoController to Coordinate--><path codeLine="116" d="M629,590.727 C629,626.682 629,697.984 629,758.5 C629,758.5 629,758.5 629,1091.5 C629,1115.717 613.862,1121.082 592,1131.5 C565.765,1144.002 357.128,1135.776 331,1148.5 C313.719,1156.916 299.242,1172.8602 288.953,1186.969 " fill="none" id="UndoController-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="285.896,1191.2783,294.3664,1186.2531,288.7894,1187.2005,287.842,1181.6236,285.896,1191.2783" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b9f1e39ad85d50fe6f3a071a4341c320]
+link Game to Turn--><path codeLine="117" d="M337.4028,786.1898 C337.4028,786.1898 328.577,799.84 326,806.5 C314.981,834.982 312.722,870.093 312.759,894.48 " fill="none" id="Game-Turn" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="313.009,907.795,316.8392,898.7214,312.915,902.7959,308.8406,898.8718,313.009,907.795" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="312.915" x2="312.765" y1="902.7959" y2="894.7975"/><polygon fill="#A80036" points="344.698,776.662,337.8744,778.9942,337.4028,786.1898,344.2263,783.8577,344.698,776.662" style="stroke:#A80036;stroke-width:1.0;"/><path d="M331,811.5 L331,836.5 L391,836.5 L391,821.5 L381,811.5 L331,811.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M381,811.5 L381,821.5 L391,821.5 L381,811.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="337" y="828.5669">next()</text><!--MD5=[15c8f9ca3aac13d865864b4eb5314ef1]
+link Game to Board--><path codeLine="121" d="M388.2752,785.0123 C388.2752,785.0123 400.239,799.199 404,806.5 C438.809,874.07 384.456,918.638 436,974.5 C470.073,1011.428 514.548,964.534 545,1004.5 C555.505,1018.287 556.154,1030.232 545,1043.5 C520.033,1073.199 410.411,1063.213 373,1073.5 C371.521,1073.907 370.022,1074.345 368.514,1074.808 " fill="none" id="Game-Board" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="356.059,1079.059,365.8687,1079.9368,360.7909,1077.4436,363.284,1072.3658,356.059,1079.059" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="360.7909" x2="368.362" y1="1077.4436" y2="1074.86"/><polygon fill="#A80036" points="379.817,776.5,381.2087,783.5755,388.2752,785.0123,386.8835,777.9367,379.817,776.5" style="stroke:#A80036;stroke-width:1.0;"/><path d="M441,880.5 L441,965.5 L594,965.5 L594,890.5 L584,880.5 L441,880.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M584,880.5 L584,890.5 L594,890.5 L584,880.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="447" y="897.5669">undoable()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="447" y="912.6997">redoable()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="447" y="927.8325">undo()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="447" y="942.9653">getColor(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="447" y="958.0981">isTicTacToe()</text><!--MD5=[a416983a2bb8ca1c26830059e75eb56a]
+link Board to Coordinate--><path codeLine="129" d="M323.287,1107.58 C313.682,1127.604 297.115,1162.142 285.413,1186.5377 " fill="none" id="Board-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="283.141,1191.2743,290.6399,1184.8894,285.3034,1186.7661,283.4267,1181.4296,283.141,1191.2743" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e8e56f95b2bfb8e03c3cdf9f0e0c50ee]
+link Board to Color--><path codeLine="130" d="M340.5811,1118.9077 C340.5811,1118.9077 354.956,1160.026 361.502,1178.7501 " fill="none" id="Board-Color" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="365.88,1191.2743,366.6857,1181.4585,364.2299,1186.5544,359.1339,1184.0986,365.88,1191.2743" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="364.2299" x2="361.59" y1="1186.5544" y2="1179.0026"/><polygon fill="#A80036" points="336.621,1107.58,334.8251,1114.5639,340.5811,1118.9077,342.377,1111.9238,336.621,1107.58" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aeb9c8b6d1fa4b3f4e931948f58ad7cf]
+link Turn to Board--><path codeLine="131" d="M310.034,942.238 C305.106,965.165 298.338,1008.171 307,1043.5 C309.132,1052.194 313.225,1061.07 317.435,1068.676 " fill="none" id="Turn-to-Board" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="320.056,1073.235,319.0387,1063.4388,317.5642,1068.9001,312.1029,1067.4256,320.056,1073.235" style="stroke:#A80036;stroke-width:1.0;"/><path d="M312,1009.5 L312,1034.5 L418,1034.5 L418,1019.5 L408,1009.5 L312,1009.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M408,1009.5 L408,1019.5 L418,1019.5 L408,1009.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="318" y="1026.5669">isTicTacToe()</text><!--MD5=[781d98dc8236ff72985a20e2d8f79439]
+link Turn to Coordinate--><path codeLine="135" d="M309.458,942.11 C305.162,957.89 298.82,982.677 295,1004.5 C283.713,1068.982 276.985,1145.631 273.945,1186.1356 " fill="none" id="Turn-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="273.557,1191.3684,278.2102,1182.6881,273.9259,1186.382,270.232,1182.0978,273.557,1191.3684" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d81713d91ad05be3b975338c4816ee0b]
+link Turn to Player--><path codeLine="136" d="M337.3306,950.7179 C337.3306,950.7179 356.237,967.942 366,974.5 C392.412,992.242 413.852,977.699 431,1004.5 C441.8,1021.38 437.224,1043.82 430.388,1061.404 " fill="none" id="Turn-Player" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="425.069,1073.466,432.3606,1066.8454,427.0866,1068.8912,425.0409,1063.6172,425.069,1073.466" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="427.0866" x2="430.314" y1="1068.8912" y2="1061.571"/><polygon fill="#A80036" points="328.817,942.261,330.2548,949.3273,337.3306,950.7179,335.8928,943.6516,328.817,942.261" style="stroke:#A80036;stroke-width:1.0;"/><path d="M443,1009.5 L443,1034.5 L528,1034.5 L528,1019.5 L518,1009.5 L443,1009.5 " fill="#FBFB77" filter="url(#f7wco2m4kjpzz)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M518,1009.5 L518,1019.5 L528,1019.5 L518,1009.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="449" y="1026.5669">getColor()</text><!--MD5=[6a5e5ab91397f297ac76a8e3e1d7e63e]
+link Player to Coordinate--><path codeLine="140" d="M401.225,1107.809 C393.414,1115.729 383.321,1124.929 373,1131.5 C356.013,1142.315 347.472,1136.915 331,1148.5 C315.962,1159.077 302.095,1174.1807 291.588,1187.2708 " fill="none" id="Player-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="288.438,1191.2613,297.1543,1186.676,291.5362,1187.3369,290.8753,1181.7188,288.438,1191.2613" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ebf52a6f230ff8b0d594dd9ce4cd7c5b]
+link Player to Color--><path codeLine="141" d="M410.509,1107.58 C403.672,1127.604 391.878,1162.142 383.548,1186.5377 " fill="none" id="Player-to-Color" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="381.931,1191.2743,388.6244,1184.0494,383.5465,1186.5425,381.0534,1181.4646,381.931,1191.2743" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[38c50a8ee4193cef2ba89eed25959423]
+link Game to Coordinate--><path codeLine="142" d="M338.604,776.572 C328.718,784.754 317.348,795.323 309,806.5 C288.658,833.735 283.937,842.446 276,875.5 C248.985,987.998 261.098,1127.602 268.179,1186.3599 " fill="none" id="Game-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="268.805,1191.4561,271.6777,1182.0355,268.1953,1186.4934,263.7374,1183.011,268.805,1191.4561" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cfe16826ee00a9d2121acaccb4aeda5d]
+@startuml
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object "undoController\n:UndoController" as UndoController{
+
+    }
+}
+
+
+package models  {
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object "coordinate\n:Coordinate" as  Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+}
+
+
+package views {
+
+    object BoardView{
+
+    }
+
+    object PlayView{
+
+    }
+
+    object MenuView{
+
+    }
+
+    object ColorView{
+
+    }
+
+    object Message{
+
+    }
+}
+
+Playerr - -> PlayView
+note on link
+    undo()
+end note
+PlayView ..> Message
+note on link
+    write()
+end note
+PlayView ..> BoardView
+note on link
+    write(undoController)
+end note
+MenuView ..> Message
+note on link
+    write()
+end note
+    BoardView ..> ColorView
+note on link
+    write(color)
+end note
+MenuView ..> UndoController
+note on link
+    undoable()
+    redoable()
+    undo()
+end note
+BoardView ..> Message
+note on link
+    write()
+    writeln()
+end note
+BoardView ..> Coordinate
+PlayView - -> UndoController
+note on link
+    next()
+    isTicTacToe()
+end note
+PlayView ..> MenuView
+note on link
+    interact(undoController)
+end note
+BoardView ..> UndoController
+note on link
+    getColor(coordinate)
+end note
+UndoController - -> Game
+note on link
+    redoable()
+    undoable()
+    undo()
+end note
+UndoController ..> Coordinate
+Game *-down-> Turn
+note on link
+    next()
+end note
+Game *-down-> Board
+note on link
+    undoable()
+    redoable()
+    undo()
+    getColor(coordinate)
+    isTicTacToe()
+end note
+Board ..> Coordinate
+Board *-down-> Color
+Turn ..> Board
+note on link
+    isTicTacToe()
+end note
+Turn ..> Coordinate
+Turn *-down-> Player
+note on link
+    getColor()
+end note
+Player ..> Coordinate
+Player - -> Color
+Game ..> Coordinate
+@enduml
+
+PlantUML version 1.2021.4beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

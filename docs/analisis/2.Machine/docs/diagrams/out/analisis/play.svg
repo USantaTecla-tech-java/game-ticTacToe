@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1644px" preserveAspectRatio="none" style="width:1831px;height:1644px;" version="1.1" viewBox="0 0 1831 1644" width="1831px" zoomAndPan="magnify"><defs><filter height="300%" id="fmao6jk93i5pe" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#fmao6jk93i5pe)" points="415.9821,552.5,510.9821,552.5,517.9821,574.7969,547.9821,574.7969,547.9821,651.5,415.9821,651.5,415.9821,552.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="415.9821" x2="517.9821" y1="574.7969" y2="574.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="419.9821" y="567.4951">controllers</text><!--MD5=[a60570e4b426f702ccbb0d459e3b9417]
+cluster models--><polygon fill="#FFFFFF" filter="url(#fmao6jk93i5pe)" points="162.9823,858.5,226.9823,858.5,233.9823,880.7969,799.9821,880.7969,799.9821,1505.5,162.9823,1505.5,162.9823,858.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="162.9823" x2="233.9823" y1="880.7969" y2="880.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="166.9823" y="873.4951">models</text><!--MD5=[67cd15ce44b6dd54f77054b62c31bf42]
+cluster types--><polygon fill="#FFFFFF" filter="url(#fmao6jk93i5pe)" points="699.9821,1538.5,750.9821,1538.5,757.9821,1560.7969,983.9821,1560.7969,983.9821,1637.5,699.9821,1637.5,699.9821,1538.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="699.9821" x2="757.9821" y1="1560.7969" y2="1560.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="703.9821" y="1553.4951">types</text><!--MD5=[e2a75efa8a0f57c2afae8bf75386f79c]
+cluster views--><polygon fill="#FFFFFF" filter="url(#fmao6jk93i5pe)" points="1214.9791,170.5,1265.9791,170.5,1272.9791,192.7969,1786.9791,192.7969,1786.9791,644.5,1214.9791,644.5,1214.9791,170.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1214.9791" x2="1272.9791" y1="192.7969" y2="192.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="1218.9791" y="185.4951">views</text><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="100" x="431.9821" y="587.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="439.9821" y="600.6387">playController</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="438.9821" y="614.6074">:PlayController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="432.9821" x2="530.9821" y1="619.4375" y2="619.4375"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="50" x="579.9821" y="1455.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="586.9821" y="1468.6387">Board</text><line style="stroke:#A80036;stroke-width:1.5;" x1="580.9821" x2="628.9821" y1="1473.4688" y2="1473.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="49" x="416.4821" y="893.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="423.4821" y="906.6387">Game</text><line style="stroke:#A80036;stroke-width:1.5;" x1="417.4821" x2="464.4821" y1="911.4688" y2="911.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="40" x="575.9821" y="1132.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="582.9821" y="1145.6387">Turn</text><line style="stroke:#A80036;stroke-width:1.5;" x1="576.9821" x2="614.9821" y1="1150.4688" y2="1150.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="50" x="430.9821" y="1358"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="437.9821" y="1371.1387">Player</text><line style="stroke:#A80036;stroke-width:1.5;" x1="431.9821" x2="479.9821" y1="1375.9688" y2="1375.9688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="84" x="800.9821" y="1573.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="810.4821" y="1586.6387">coordinate</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="807.9821" y="1600.6074">:Coordinate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="801.9821" x2="883.9821" y1="1605.4375" y2="1605.4375"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="50" x="715.9821" y="1573.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="725.4821" y="1586.6387">color</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="722.9821" y="1600.6074">:Color</text><line style="stroke:#A80036;stroke-width:1.5;" x1="716.9821" x2="764.9821" y1="1605.4375" y2="1605.4375"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="47.9375" style="stroke:#A80036;stroke-width:1.5;" width="48" x="919.9821" y="1573.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="928.4821" y="1586.6387">error</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="34" x="926.9821" y="1600.6074">:Error</text><line style="stroke:#A80036;stroke-width:1.5;" x1="920.9821" x2="966.9821" y1="1605.4375" y2="1605.4375"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="79" x="1467.4791" y="348.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="1474.4791" y="361.6387">BoardView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1468.4791" x2="1545.4791" y1="366.4688" y2="366.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="66" x="1361.9791" y="205.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="1368.9791" y="218.6387">PlayView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1362.9791" x2="1426.9791" y1="223.4688" y2="223.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="106" x="1230.9791" y="348.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="1237.9791" y="361.6387">MovementView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1231.9791" x2="1335.9791" y1="366.4688" y2="366.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="75" x="1487.4791" y="594.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="1494.4791" y="607.6387">ColorView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1488.4791" x2="1561.4791" y1="612.4688" y2="612.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="73" x="1375.4791" y="594.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="1382.4791" y="607.6387">ErrorView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1376.4791" x2="1447.4791" y1="612.4688" y2="612.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="69" x="1671.4791" y="594.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="1678.4791" y="607.6387">Message</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1672.4791" x2="1739.4791" y1="612.4688" y2="612.4688"/><rect fill="#FEFECE" filter="url(#fmao6jk93i5pe)" height="33.9688" style="stroke:#A80036;stroke-width:1.5;" width="109" x="1231.4791" y="594.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="1238.4791" y="607.6387">CoordinateView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1232.4791" x2="1339.4791" y1="612.4688" y2="612.4688"/><!--MD5=[fb2f237e4154b78a31e896754c8f6e24]
+entity Playerr--><ellipse cx="1394.9791" cy="14" fill="#FEFECE" filter="url(#fmao6jk93i5pe)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M1394.9791,22 L1394.9791,49 M1381.9791,30 L1407.9791,30 M1394.9791,49 L1381.9791,64 M1394.9791,49 L1407.9791,64 " fill="none" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1372.9791" y="82.4951">Player</text><!--MD5=[0b62945baee8d22da13b207ab2370f57]
+link Playerr to PlayView--><path codeLine="77" d="M1394.9791,85.82 C1394.9791,121.43 1394.9791,172.23 1394.9791,200.48 " fill="none" id="Playerr-to-PlayView" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1394.9791,205.49,1398.9791,196.49,1394.9791,200.49,1390.9791,196.49,1394.9791,205.49" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1399.9791,120.5 L1399.9791,145.5 L1457.9791,145.5 L1457.9791,130.5 L1447.9791,120.5 L1399.9791,120.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1447.9791,120.5 L1447.9791,130.5 L1457.9791,130.5 L1447.9791,120.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="1405.9791" y="137.5669">play()</text><!--MD5=[e55bac01230a56de5b831ff1fe3e7165]
+link PlayView to Message--><path codeLine="81" d="M1428.0391,225.84 C1491.2391,230.83 1626.4091,244.21 1664.9791,269.5 C1732.9191,314.04 1741.7991,344.64 1764.9791,422.5 C1779.4391,471.06 1781.7091,488.68 1764.9791,536.5 C1757.6391,557.48 1741.5791,576.95 1728.0691,590.65 " fill="none" id="PlayView-to-Message" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1724.3391,594.36,1733.5457,590.8616,1727.8889,590.8388,1727.9117,585.1819,1724.3391,594.36" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1759.9791,351 L1759.9791,376 L1822.9791,376 L1822.9791,361 L1812.9791,351 L1759.9791,351 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1812.9791,351 L1812.9791,361 L1822.9791,361 L1812.9791,351 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="1765.9791" y="368.0669">write()</text><!--MD5=[df6dfd0189eff65051b97f6f6f0a9eb9]
+link PlayView to BoardView--><path codeLine="85" d="M1428.0391,238.6 C1441.8691,246.25 1457.1891,256.66 1467.9791,269.5 C1486.2791,291.27 1496.9191,322.78 1502.3291,343.45 " fill="none" id="PlayView-to-BoardView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1503.5991,348.46,1505.2901,338.7574,1502.3831,343.6101,1497.5303,340.7031,1503.5991,348.46" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1495.9791,274.5 L1495.9791,299.5 L1647.9791,299.5 L1647.9791,284.5 L1637.9791,274.5 L1495.9791,274.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1637.9791,274.5 L1637.9791,284.5 L1647.9791,284.5 L1637.9791,274.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="131" x="1501.9791" y="291.5669">write(playController)</text><!--MD5=[4e00fd9b320a795e86d9edaf22dd8422]
+link PlayView to MovementView--><path codeLine="89" d="M1361.7391,226.98 C1334.9491,231.73 1298.8891,242.96 1280.9791,269.5 C1266.2591,291.31 1271.0491,322.82 1276.7491,343.47 " fill="none" id="PlayView-to-MovementView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1278.2091,348.48,1279.5291,338.72,1276.8091,343.68,1271.8491,340.96,1278.2091,348.48" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1285.9791,274.5 L1285.9791,299.5 L1454.9791,299.5 L1454.9791,284.5 L1444.9791,274.5 L1285.9791,274.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1444.9791,274.5 L1444.9791,284.5 L1454.9791,284.5 L1444.9791,274.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="1291.9791" y="291.5669">interact(playController)</text><!--MD5=[50d2c791ff67128bf0c4b51052450f86]
+link BoardView to ColorView--><path codeLine="93" d="M1508.1591,382.51 C1511.2991,425.08 1519.8591,541.1 1523.4091,589.18 " fill="none" id="BoardView-to-ColorView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1523.7991,594.43,1527.1477,585.1679,1523.4429,589.4427,1519.168,585.7379,1523.7991,594.43" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1524.9791,465 L1524.9791,490 L1618.9791,490 L1618.9791,475 L1608.9791,465 L1524.9791,465 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1608.9791,465 L1608.9791,475 L1618.9791,475 L1608.9791,465 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="1530.9791" y="482.0669">write(color)</text><!--MD5=[02a16ebf8539d2e5d44c3be387606aac]
+link BoardView to Message--><path codeLine="97" d="M1546.7691,374.58 C1575.2691,382.32 1612.5891,396.75 1635.9791,422.5 C1671.7991,461.93 1653.8891,486.77 1672.9791,536.5 C1679.9591,554.67 1689.0391,574.81 1695.8991,589.49 " fill="none" id="BoardView-to-Message" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1698.1391,594.25,1697.9307,584.4033,1696.0122,589.7249,1690.6906,587.8064,1698.1391,594.25" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1677.9791,457.5 L1677.9791,497.5 L1751.9791,497.5 L1751.9791,467.5 L1741.9791,457.5 L1677.9791,457.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1741.9791,457.5 L1741.9791,467.5 L1751.9791,467.5 L1741.9791,457.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="1683.9791" y="474.5669">write()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="1683.9791" y="489.6997">writeln()</text><!--MD5=[3691da1176459d67ce486a3614a47073]
+link BoardView to Coordinate--><path codeLine="102" d="M1467.2791,372.82 C1398.9391,384.04 1264.8491,407.64 1248.9791,422.5 C1210.6291,458.42 1177.9791,724.55 1177.9791,754 C1177.9791,754 1177.9791,754 1177.9791,1473.5 C1177.9791,1536.128 956.2541,1499.246 901.9821,1530.5 C885.5671,1539.953 871.2821,1555.6022 860.8811,1569.2898 " fill="none" id="BoardView-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="857.7801,1573.4657,866.3573,1568.6251,860.7611,1569.4516,859.9347,1563.8554,857.7801,1573.4657" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3c978e882819d5791a3d8cfa6d73d565]
+link ColorView to Color--><path codeLine="103" d="M1520.5591,628.78 C1508.8591,673.331 1477.9791,801.176 1477.9791,909.5 C1477.9791,909.5 1477.9791,909.5 1477.9791,1262 C1477.9791,1462.101 818.1341,1505.179 782.9821,1530.5 C769.6161,1540.128 759.4871,1555.4482 752.5291,1568.9054 " fill="none" id="ColorView-to-Color" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="750.2901,1573.3868,757.8903,1567.1229,752.5245,1568.9138,750.7335,1563.5479,750.2901,1573.3868" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[af4b536823fa52bb7700e02f16c0bb80]
+link PlayView to PlayController--><path codeLine="104" d="M1361.7791,225.91 C1214.5491,237.3 622.7301,290.81 503.9821,422.5 C464.3871,466.41 469.5821,541.46 476.1661,582.19 " fill="none" id="PlayView-to-PlayController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="477.0571,587.46,479.4832,577.9146,476.2145,582.5315,471.5976,579.2628,477.0571,587.46" style="stroke:#A80036;stroke-width:1.0;"/><path d="M664.9821,343.5 L664.9821,383.5 L770.9821,383.5 L770.9821,353.5 L760.9821,343.5 L664.9821,343.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M760.9821,343.5 L760.9821,353.5 L770.9821,353.5 L760.9821,343.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="670.9821" y="360.5669">next()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="670.9821" y="375.6997">isTicTacToe()</text><!--MD5=[bd10f6fdfdf92b1398aac5d7debe75c5]
+link MovementView to PlayController--><path codeLine="109" d="M1230.9691,367.04 C1069.3731,369.15 590.6511,379.06 536.9821,422.5 C530.6261,427.65 502.7591,531.24 489.3041,582.4 " fill="none" id="MovementView-to-PlayController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="487.9701,587.48,494.1266,579.7925,489.2412,582.6443,486.3894,577.7588,487.9701,587.48" style="stroke:#A80036;stroke-width:1.0;"/><path d="M541.9821,427.5 L541.9821,527.5 L883.9821,527.5 L883.9821,437.5 L873.9821,427.5 L541.9821,427.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M873.9821,427.5 L873.9821,437.5 L883.9821,437.5 L873.9821,427.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="547.9821" y="444.5669">areAllTokensOnBoard()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="547.9821" y="459.6997">putToken(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="547.9821" y="474.8325">getPutTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="547.9821" y="489.9653">moveToken(coordinate, coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="547.9821" y="505.0981">getOriginMoveTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="321" x="547.9821" y="520.231">getTargetMoveTokenError(coordinate, coordinate)</text><!--MD5=[95222fcfee6a0e55ea3c710d45a000c2]
+link MovementView to CoordinateView--><path codeLine="118" d="M1276.1291,382.72 C1271.2691,393.67 1265.4991,408.61 1262.9791,422.5 C1253.9391,472.35 1255.3791,486.41 1262.9791,536.5 C1265.7791,554.9 1272.2691,575.03 1277.6491,589.64 " fill="none" id="MovementView-to-CoordinateView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1279.4191,594.37,1279.9944,584.538,1277.6588,589.6901,1272.5066,587.3545,1279.4191,594.37" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1267.9791,465 L1267.9791,490 L1327.9791,490 L1327.9791,475 L1317.9791,465 L1267.9791,465 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1317.9791,465 L1317.9791,475 L1327.9791,475 L1317.9791,465 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1273.9791" y="482.0669">read()</text><!--MD5=[118aad95fcf670bfe04c06c9ba75fb27]
+link CoordinateView to Coordinate--><path codeLine="122" d="M1284.0491,628.57 C1278.8491,673.114 1264.9791,801.982 1264.9791,909.5 C1264.9791,909.5 1264.9791,909.5 1264.9791,1473.5 C1264.9791,1508.275 1236.6291,1510.523 1203.9791,1522.5 C1172.4691,1534.061 932.4391,1516.388 901.9821,1530.5 C884.4161,1538.64 869.8521,1554.7492 859.5881,1569.0145 " fill="none" id="CoordinateView-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="856.5431,1573.3716,864.9785,1568.2878,859.4082,1569.2739,858.4221,1563.7037,856.5431,1573.3716" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cfec577e75b6e23befa1cac8d49a37eb]
+link MovementView to ErrorView--><path codeLine="123" d="M1304.3791,382.63 C1316.3691,392.97 1331.0591,407.28 1340.9791,422.5 C1376.7591,477.38 1398.2491,552.89 1407.1591,589.25 " fill="none" id="MovementView-to-ErrorView" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="1408.3891,594.32,1410.174,584.6342,1407.2201,589.4586,1402.3957,586.5047,1408.3891,594.32" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1396.9791,465 L1396.9791,490 L1490.9791,490 L1490.9791,475 L1480.9791,465 L1396.9791,465 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1480.9791,465 L1480.9791,475 L1490.9791,475 L1480.9791,465 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="1402.9791" y="482.0669">write(error)</text><!--MD5=[fb51b3f724744bd182faff87da852458]
+link MovementView to Coordinate--><path codeLine="127" d="M1230.8491,368.66 C1149.1091,373.11 997.9691,386.13 959.9821,422.5 C898.2081,481.64 918.9821,524.98 918.9821,610.5 C918.9821,610.5 918.9821,610.5 918.9821,1425.5 C918.9821,1480.066 886.2681,1536.639 863.7661,1569.0976 " fill="none" id="MovementView-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="860.8011,1573.3214,869.2457,1568.253,863.6737,1569.2289,862.6978,1563.6569,860.8011,1573.3214" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[34f09467e20ea7758ff17a55b4d490ad]
+link MovementView to Error--><path codeLine="128" d="M1230.9691,368.46 C1152.9391,372.59 1013.0521,385.14 981.9821,422.5 C949.5861,461.46 981.0511,485.84 981.9821,536.5 C983.7601,633.22 989.9821,657.268 989.9821,754 C989.9821,754 989.9821,754 989.9821,1473.5 C989.9821,1507.912 973.9911,1544.503 960.8661,1568.7419 " fill="none" id="MovementView-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="958.2851,1573.4206,966.1356,1567.4733,960.7008,1569.0429,959.1313,1563.6082,958.2851,1573.4206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b63d250dabfa7c5da9a797e703fb09c4]
+link BoardView to PlayController--><path codeLine="129" d="M1467.1691,374.17 C1436.3691,379.88 1392.5991,387.52 1353.9791,392.5 C1278.9791,402.18 1083.5081,390.5 1014.9821,422.5 C950.0571,452.81 964.5351,503.41 900.9821,536.5 C782.0581,598.43 621.1301,609.74 537.5511,611.08 " fill="none" id="BoardView-to-PlayController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="532.1591,611.15,541.2133,615.0259,537.1586,611.0812,541.1032,607.0266,532.1591,611.15" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1019.9821,465 L1019.9821,490 L1172.9821,490 L1172.9821,475 L1162.9821,465 L1019.9821,465 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1162.9821,465 L1162.9821,475 L1172.9821,475 L1162.9821,465 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="1025.9821" y="482.0669">getColor(coordinate)</text><!--MD5=[6644feef5b6915e79e24ef481c71a7c1]
+link PlayController to Game--><path codeLine="133" d="M478.7651,635.81 C471.0271,691.861 451.4601,833.597 443.9661,887.885 " fill="none" id="PlayController-to-Game" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="443.2381,893.162,448.4298,884.7927,443.921,888.2089,440.5048,883.7,443.2381,893.162" style="stroke:#A80036;stroke-width:1.0;"/><path d="M479.9821,672.5 L479.9821,833.5 L821.9821,833.5 L821.9821,682.5 L811.9821,672.5 L479.9821,672.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M811.9821,672.5 L811.9821,682.5 L821.9821,682.5 L811.9821,672.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="485.9821" y="689.5669">areAllTokensOnBoard()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="485.9821" y="704.6997">putToken(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="485.9821" y="719.8325">getPutTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="485.9821" y="734.9653">moveToken(coordinate, coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="485.9821" y="750.0981">getOriginMoveTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="321" x="485.9821" y="765.231">getTargetMoveTokenError(coordinate, coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="485.9821" y="780.3638">next()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="485.9821" y="795.4966">getActiveColor()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="485.9821" y="810.6294">getColor(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="485.9821" y="825.7622">isTicTacToe()</text><!--MD5=[10e7a15d72d4dbff125a2050ab7515f4]
+link PlayController to Coordinate--><path codeLine="146" d="M431.7811,628.32 C334.3241,662.516 128.9823,753.123 128.9823,909.5 C128.9823,909.5 128.9823,909.5 128.9823,1473.5 C128.9823,1496.832 141.941,1503.417 162.9823,1513.5 C178.5193,1520.945 767.3231,1523.315 782.9821,1530.5 C800.7121,1538.635 815.5211,1554.7449 825.9911,1569.0112 " fill="none" id="PlayController-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="829.0991,1573.3687,827.1283,1563.719,826.1952,1569.2984,820.6158,1568.3653,829.0991,1573.3687" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b9f1e39ad85d50fe6f3a071a4341c320]
+link Game to Turn--><path codeLine="147" d="M436.2907,939.6087 C436.2907,939.6087 428.4351,1056.109 465.9821,1102.5 C489.3871,1131.417 532.2761,1142.177 562.3721,1146.169 " fill="none" id="Game-Turn" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="575.5811,1147.601,567.0648,1142.6541,570.6102,1147.062,566.2023,1150.6075,575.5811,1147.601" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="570.6102" x2="562.6566" y1="1147.062" y2="1146.1995"/><polygon fill="#A80036" points="437.9641,927.726,433.1665,933.1096,436.2907,939.6087,441.0883,934.2252,437.9641,927.726" style="stroke:#A80036;stroke-width:1.0;"/><path d="M470.9821,962.5 L470.9821,1093.5 L812.9821,1093.5 L812.9821,972.5 L802.9821,962.5 L470.9821,962.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M802.9821,962.5 L802.9821,972.5 L812.9821,972.5 L802.9821,962.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="476.9821" y="979.5669">next()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="476.9821" y="994.6997">getActiveColor()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="476.9821" y="1009.8325">areAllTokensOnBoard()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="476.9821" y="1024.9653">putToken(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="476.9821" y="1040.0981">getPutTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="476.9821" y="1055.231">moveToken(coordinate, coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="476.9821" y="1070.3638">getOriginMoveTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="321" x="476.9821" y="1085.4966">getTargetMoveTokenError(coordinate, coordinate)</text><!--MD5=[15c8f9ca3aac13d865864b4eb5314ef1]
+link Game to Board--><path codeLine="158" d="M410.5638,935.1512 C410.5638,935.1512 109.845,1199.349 222.9821,1325.5 C264.0261,1371.265 443.0961,1327.813 497.9821,1355.5 C537.6161,1375.493 569.9421,1416.645 588.3341,1444.164 " fill="none" id="Game-Board" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="595.5621,1455.372,594.0461,1445.6405,592.8523,1451.17,587.3229,1449.9762,595.5621,1455.372" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="592.8523" x2="588.5171" y1="1451.17" y2="1444.447"/><polygon fill="#A80036" points="419.9271,927.646,412.7437,928.2775,410.5638,935.1512,417.7472,934.5197,419.9271,927.646" style="stroke:#A80036;stroke-width:1.0;"/><path d="M227.9821,1239 L227.9821,1279 L380.9821,1279 L380.9821,1249 L370.9821,1239 L227.9821,1239 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M370.9821,1239 L370.9821,1249 L380.9821,1249 L370.9821,1239 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="233.9821" y="1256.0669">getColor(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="233.9821" y="1271.1997">isTicTacToe()</text><!--MD5=[a416983a2bb8ca1c26830059e75eb56a]
+link Board to Coordinate--><path codeLine="163" d="M630.1121,1482.607 C659.0531,1492.937 708.1251,1509.972 750.9821,1522.5 C765.0531,1526.613 770.4011,1522.976 782.9821,1530.5 C799.2421,1540.224 813.6641,1555.7277 824.2911,1569.2658 " fill="none" id="Board-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="827.4651,1573.3957,825.1519,1563.8223,824.4181,1569.4314,818.809,1568.6976,827.4651,1573.3957" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e8e56f95b2bfb8e03c3cdf9f0e0c50ee]
+link Board to Color--><path codeLine="164" d="M624.137,1499.181 C624.137,1499.181 638.0001,1515.71 644.9821,1522.5 C663.4341,1540.444 686.1681,1558.133 704.8801,1571.7151 " fill="none" id="Board-Color" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="715.6521,1579.4069,710.6519,1570.9217,711.5829,1576.5014,706.0032,1577.4324,715.6521,1579.4069" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="711.5829" x2="705.0731" y1="1576.5014" y2="1571.8527"/><polygon fill="#A80036" points="616.7311,1489.739,617.2867,1496.9287,624.137,1499.181,623.5814,1491.9914,616.7311,1489.739" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[86870cdabd6f68629f04aeac36e6c4ff]
+link ErrorView to Error--><path codeLine="165" d="M1411.5191,628.6 C1410.2791,673.209 1406.9791,802.235 1406.9791,909.5 C1406.9791,909.5 1406.9791,909.5 1406.9791,1473.5 C1406.9791,1563.5832 1075.4591,1589.2839 973.4741,1595.0589 " fill="none" id="ErrorView-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="968.2231,1595.35,977.43,1598.8476,973.2155,1595.0743,976.9888,1590.8598,968.2231,1595.35" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aeb9c8b6d1fa4b3f4e931948f58ad7cf]
+link Turn to Board--><path codeLine="166" d="M616.0691,1152.521 C659.1341,1157.31 758.0591,1170.914 777.9821,1196.5 C786.7891,1207.809 787.0481,1314.398 777.9821,1325.5 C735.8091,1377.149 678.5821,1308.804 630.9821,1355.5 C605.6741,1380.328 602.6231,1424.067 603.3551,1450.158 " fill="none" id="Turn-to-Board" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="603.5621,1455.445,607.2067,1446.2953,603.3664,1450.4488,599.2128,1446.6085,603.5621,1455.445" style="stroke:#A80036;stroke-width:1.0;"/><path d="M635.9821,1360.5 L635.9821,1385.5 L741.9821,1385.5 L741.9821,1370.5 L731.9821,1360.5 L635.9821,1360.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M731.9821,1360.5 L731.9821,1370.5 L741.9821,1370.5 L731.9821,1360.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="641.9821" y="1377.5669">isTicTacToe()</text><!--MD5=[781d98dc8236ff72985a20e2d8f79439]
+link Turn to Coordinate--><path codeLine="170" d="M616.2821,1152.54 C660.3691,1157.41 762.7061,1171.231 784.9821,1196.5 C833.1961,1251.192 807.8721,1450.969 821.9821,1522.5 C825.0211,1537.903 829.6971,1554.765 833.8661,1568.4975 " fill="none" id="Turn-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="835.3761,1573.4068,836.5547,1563.6287,833.9068,1568.6276,828.9079,1565.9797,835.3761,1573.4068" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d81713d91ad05be3b975338c4816ee0b]
+link Turn to Player--><path codeLine="171" d="M563.7818,1154.14 C563.7818,1154.14 435.5541,1173.81 417.9821,1196.5 C382.8781,1241.83 399.2791,1271.303 417.9821,1325.5 C420.6651,1333.273 425.1631,1340.752 430.1441,1347.411 " fill="none" id="Turn-Player" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="438.7491,1357.753,436.0683,1348.276,435.5514,1353.9092,429.9182,1353.3923,438.7491,1357.753" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="435.5514" x2="430.4341" y1="1353.9092" y2="1347.76"/><polygon fill="#A80036" points="575.6911,1152.667,569.2455,1149.4337,563.7818,1154.14,570.2275,1157.3732,575.6911,1152.667" style="stroke:#A80036;stroke-width:1.0;"/><path d="M422.9821,1201.5 L422.9821,1316.5 L764.9821,1316.5 L764.9821,1211.5 L754.9821,1201.5 L422.9821,1201.5 " fill="#FBFB77" filter="url(#fmao6jk93i5pe)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M754.9821,1201.5 L754.9821,1211.5 L764.9821,1211.5 L754.9821,1201.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="428.9821" y="1218.5669">getColor()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="428.9821" y="1233.6997">areAllTokensOnBoard()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="428.9821" y="1248.8325">putToken(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="428.9821" y="1263.9653">getPutTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="428.9821" y="1279.0981">moveToken(coordinate, coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="428.9821" y="1294.231">getOriginMoveTokenError(coordinate)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="321" x="428.9821" y="1309.3638">getTargetMoveTokenError(coordinate, coordinate)</text><!--MD5=[6a5e5ab91397f297ac76a8e3e1d7e63e]
+link Player to Coordinate--><path codeLine="181" d="M455.8671,1392.422 C456.6481,1422.074 463.0051,1484.186 500.9821,1513.5 C525.8311,1532.68 754.6711,1516.943 782.9821,1530.5 C800.4491,1538.864 815.1701,1554.8077 825.6581,1568.9287 " fill="none" id="Player-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="828.7761,1573.2422,826.745,1563.6051,825.8468,1569.1901,820.2617,1568.2919,828.7761,1573.2422" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[01a9a67b785efa17a0e591fde2682c2c]
+link Player to Error--><path codeLine="182" d="M465.9271,1392.097 C486.8391,1425.356 535.6091,1499.702 561.9821,1513.5 C629.0131,1548.568 836.5971,1492.452 901.9821,1530.5 C916.5371,1538.969 926.8451,1554.716 933.6061,1568.7044 " fill="none" id="Player-to-Error" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="935.7641,1573.3678,935.6141,1563.5201,933.664,1568.8302,928.3539,1566.8802,935.7641,1573.3678" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c1f7e88598f78d9459764ed93737eb14]
+link Player to Board--><path codeLine="183" d="M480.9861,1391.921 C495.8181,1401.374 514.9831,1413.604 531.9821,1424.5 C546.3481,1433.708 562.2831,1443.963 575.5901,1452.538 " fill="none" id="Player-to-Board" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="579.9971,1455.378,574.5989,1447.1403,575.7943,1452.6694,570.2652,1453.8649,579.9971,1455.378" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ebf52a6f230ff8b0d594dd9ce4cd7c5b]
+link Player to Color--><path codeLine="184" d="M430.9191,1377.431 C335.6241,1383.716 6,1413.619 102.9823,1522.5 C143.9525,1568.4968 589.5181,1590.2212 710.7071,1595.3059 " fill="none" id="Player-to-Color" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="715.8941,1595.5217,707.0675,1591.1523,710.8984,1595.3146,706.7361,1599.1454,715.8941,1595.5217" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[38c50a8ee4193cef2ba89eed25959423]
+link Game to Coordinate--><path codeLine="185" d="M465.7631,912.703 C546.8401,916.877 800.4821,931.891 825.9821,957.5 C886.2761,1018.05 847.9821,1063.05 847.9821,1148.5 C847.9821,1148.5 847.9821,1148.5 847.9821,1473.5 C847.9821,1506.023 846.2151,1543.343 844.7821,1568.2645 " fill="none" id="Game-to-Coordinate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="844.4821,1573.3882,849.0014,1564.6374,844.7744,1568.3968,841.0151,1564.1698,844.4821,1573.3882" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[214165ec7e9572be9ec66359f7ba0623]
+@startuml
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+
+    object "playController\n:PlayController" as PlayController{
+
+    }
+}
+
+
+package models  {
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+    object Player{
+
+    }
+}
+
+package types  {
+
+    object "coordinate\n:Coordinate" as  Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+
+    object "error\n:Error" as  Error{
+
+    }
+}
+
+
+package views {
+
+    object BoardView{
+
+    }
+
+    object PlayView{
+
+    }
+
+    object MovementView{
+
+    }
+
+    object ColorView{
+
+    }
+
+    object ErrorView{
+
+    }
+
+    object Message{
+
+    }
+
+    object CoordinateView{
+
+    }
+}
+
+Playerr - -> PlayView
+note on link
+    play()
+end note
+PlayView ..> Message
+note on link
+    write()
+end note
+PlayView ..> BoardView
+note on link
+    write(playController)
+end note
+PlayView ..> MovementView
+note on link
+    interact(playController)
+end note
+BoardView ..> ColorView
+note on link
+    write(color)
+end note
+BoardView ..> Message
+note on link
+    write()
+    writeln()
+end note
+BoardView ..> Coordinate
+ColorView ..> Color
+PlayView - -> PlayController
+note on link
+    next()
+    isTicTacToe()
+end note
+MovementView ..> PlayController
+note on link
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+MovementView ..> CoordinateView
+note on link
+    read()
+end note
+CoordinateView ..> Coordinate
+MovementView ..> ErrorView
+note on link
+    write(error)
+end note
+MovementView ..> Coordinate
+MovementView ..> Error
+BoardView ..> PlayController
+note on link
+    getColor(coordinate)
+end note
+PlayController - -> Game
+note on link
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+    next()
+    getActiveColor()
+    getColor(coordinate)
+    isTicTacToe()
+end note
+PlayController ..> Coordinate
+Game *-down-> Turn
+note on link
+    next()
+    getActiveColor()
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+Game *-down-> Board
+note on link
+    getColor(coordinate)
+    isTicTacToe()
+end note
+Board ..> Coordinate
+Board *-down-> Color
+ErrorView ..> Error
+Turn ..> Board
+note on link
+    isTicTacToe()
+end note
+Turn ..> Coordinate
+Turn *-down-> Player
+note on link
+    getColor()
+    areAllTokensOnBoard()
+    putToken(coordinate)
+    getPutTokenError(coordinate)
+    moveToken(coordinate, coordinate)
+    getOriginMoveTokenError(coordinate)
+    getTargetMoveTokenError(coordinate, coordinate)
+end note
+Player ..> Coordinate
+Player ..> Error
+Player - -> Board
+Player - -> Color
+Game ..> Coordinate
+@enduml
+
+PlantUML version 1.2021.4beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

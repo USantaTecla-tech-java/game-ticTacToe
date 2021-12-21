@@ -1,0 +1,102 @@
+@startuml analisisOpen
+allow_mixing
+
+actor :Player: as Playerr
+
+package controllers  {
+    object "openController\n:OpenController" as OpenController{
+
+    }
+ }
+
+
+package models  {
+    object Board{
+
+    }
+
+    object Game{
+
+    }
+
+    object Turn{
+
+    }
+ }
+
+package types  { 
+    object "coordinate\n:Coordinate" as  Coordinate{
+
+    }
+
+    object "color\n:Color" as Color{
+
+    }
+}
+
+
+package views {
+
+    object BoardView{
+
+    }
+
+    object StartView{
+
+    }
+
+    object ColorView{
+
+    }
+
+    object Message{
+
+    }
+
+    object OpenView {
+
+    }
+ }
+
+Playerr --> StartView
+note on link
+    open()
+end note
+StartView ..> OpenView
+note on link
+    interact(openController)
+end note
+StartView ..> BoardView
+note on link
+    interact(openController)
+end note
+BoardView ..> ColorView
+note on link
+    write(color)
+end note
+BoardView ..> Message
+note on link
+    write()
+    writeln()
+end note
+OpenView ..> OpenController
+note on link
+    open(gameName)
+end note
+OpenController ..> Game
+note on link
+    open(gameName)
+end note
+Game ..> Board
+note on link
+    open(gameName)
+end note
+Game ..> Turn
+note on link
+    open(gameName)
+end note
+Game ..> Coordinate
+Board ..> Coordinate
+Board *-down-> Color
+Turn ..> Coordinate
+@enduml

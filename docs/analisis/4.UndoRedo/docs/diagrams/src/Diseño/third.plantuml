@@ -1,0 +1,73 @@
+@startuml secuencia
+actor Actor
+boundary XTemplate
+boundary XComponent
+control XValidator
+control XService
+control XResource
+control XController
+entity XRepository
+entity XEntity
+boundary XDto
+
+activate Actor
+Actor -> XTemplate: set
+deactivate Actor
+activate XTemplate
+
+XTemplate -> XComponent: set
+deactivate XTemplate
+activate XComponent
+
+XComponent -> XValidator: check
+XComponent -> XService: set
+deactivate XComponent
+activate XService
+
+XService -> XResource: http request
+deactivate XService
+activate XResource
+
+XResource -> XController: set
+deactivate XResource
+activate XController
+
+XController -> XRepository: set
+deactivate XController
+activate XRepository
+
+XRepository -> XEntity: new
+
+XRepository -> XController: return entity
+deactivate XRepository
+activate XController
+
+XController -> XEntity: set
+
+XController -> XDto: new (entity)
+deactivate XController
+activate XDto
+
+XDto -> XEntity: getX()
+deactivate XDto
+activate XEntity
+
+XEntity -> XDto: return value
+deactivate XEntity
+activate XController
+
+XController -> XResource: return xDto
+deactivate XController
+activate XResource
+
+XResource -> XService: http response
+deactivate XResource
+activate XService
+
+XService -> XComponent: return xDto
+deactivate XService
+activate XComponent
+
+XComponent -> XTemplate: set
+deactivate XComponent
+@enduml

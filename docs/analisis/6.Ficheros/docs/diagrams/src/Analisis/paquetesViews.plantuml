@@ -1,0 +1,116 @@
+@startuml packageViews
+class Coordinate as "types.\nCoordinate"
+enum Error as "types.\nError"
+enum Color as "types.\nColor"
+class StartController as "controllers.\nStartController"
+class PlayController as "controllers.\nPlayController"
+class ResumeController as "controllers.\nResumeController"
+class UndoController as "controllers.\nUndoController"
+class RedoController as "controllers.\nRedoController"
+class OpenController as "controllers.\nOpenController"
+class SaveController as "controllers.\nSaveController"
+class ExitController as "controllers.\nExitController"
+
+class  views.BoardView{
+    ~ write(StartController)
+}
+
+class  views.ErrorView{
+    ~ writeln(Error)
+}
+
+class  views.PlayView{
+    ~ play(PlayController)
+}
+
+class  views.ResumeView{
+    ~ resume(ResumeController): boolean
+}
+
+class views.StartView{
+    ~ start(StartController)
+}
+
+class  views.MovementView{
+    ~ interact()
+}
+
+class  views.ColorView{
+    ~ write(Color)
+}
+
+class  views.SaveView{
+    ~ save(SaveController)
+}
+
+class  views.OpenView{
+    ~ interact(OpenController)
+}
+
+enum  views.Message{
+    +TITLE
+    +HORIZONTAL_LINE
+    +VERTICAL_LINE
+    +ACTION_COMMAND
+    +UNDO_COMMAND
+    +REDO_COMMAND
+    +ENTER_COORDINATE_TO_PUT
+    +COORDINATE_TO_PUT
+    +COORDINATE_TO_REMOVE
+    +COORDINATE_TO_MOVE
+    +PLAYER_WIN
+    +RESUME
+    +OPEN
+    +SAVE
+    ~ writeln()
+    ~ write()
+}
+
+class  views.PlayerView{
+
+}
+
+class  views.MenuView{
+    ~ write(PlayController)
+}
+
+class  views.CoordinateView{
+    ~ read(): Coordinate
+}
+
+views.PlayerView *-down-> views.StartView
+views.PlayerView *-down-> views.PlayView
+views.PlayerView *-down-> views.SaveView
+views.SaveView *-down-> views.Message
+views.SaveView *-down-> SaveController
+views.PlayerView *-down-> views.ResumeView
+views.StartView ..> views.Message
+views.StartView ..> views.BoardView
+views.StartView ..> views.OpenView
+views.OpenView ..> OpenController
+views.OpenView ..> views.Message
+views.StartView -down-> StartController
+views.BoardView ..> views.ColorView
+views.BoardView ..> views.Message
+views.PlayView ..> views.Message
+views.PlayView ..> views.BoardView
+views.PlayView ..> views.MenuView
+views.MenuView ..> views.MovementView
+views.MenuView .down.> PlayController
+views.MenuView .down.> UndoController
+views.MenuView .down.> RedoController
+views.MenuView .down.> ExitController
+views.MovementView ..> views.ErrorView
+views.ResumeView ..> views.Message
+views.ResumeView -down-> ResumeController
+views.BoardView .down.> Coordinate
+views.MovementView .down.> Coordinate
+views.BoardView .down.> StartController
+views.BoardView .down.> Color
+views.MovementView .down.> Error
+views.ErrorView .down.> Error
+views.PlayView -down-> PlayController
+views.ColorView .down.> Color
+views.CoordinateView .down.> Coordinate
+views.MovementView ..> views.CoordinateView
+@enduml

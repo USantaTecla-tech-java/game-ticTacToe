@@ -1,0 +1,21 @@
+@startuml typespackages
+package types  { }
+
+class  types.Coordinate{
+    #getDimension()
+}
+
+enum  types.Color{
+    +X
+    +O
+    +NULL
+}
+
+enum  types.Error{
+    +NOT_EMPTY
+    +NOT_OWNER
+    +SAME_COORDINATES
+    +WRONG_COORDINATES
+    +NULL
+}
+@enduml

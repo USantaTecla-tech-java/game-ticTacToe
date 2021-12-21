@@ -1,0 +1,68 @@
+@startuml packageControllers
+class Coordinate as "types.\nCoordinate"
+enum Color as "types.\nColor"
+enum Error as "types.\nError"
+class Game as "models.\nGame"
+
+abstract class  controllers.Controller{
+    + getColor(Coordinate): Color
+}
+
+class  controllers.PlayController{
+    +areAllTokensOnBoard(): boolean
+    +putToken(Coordinate)
+    +getPutTokenError(Coordinate): Error
+    +moveToken(Coordinate, Coordinate)
+    +getOriginMoveTokenError(Coordinate): Error
+    +getTargetMoveTokenError(Coordinate, Coordinate): Error
+    +next()
+    +getActiveColor(): Color
+    +isTicTacToe(): boolean
+}
+
+class  controllers.ResumeController{
+    +reset()
+}
+
+class  controllers.StartController{
+
+}
+
+class  controllers.UndoController{
+    +undoable(): boolean
+    +undo()
+}
+
+class  controllers.RedoController{
+    +redoable(): boolean
+    +redo()
+}
+
+class  controllers.OpenController{
+    +open()
+}
+
+class  controllers.SaveController{
+    +save()
+}
+
+class  controllers.ExitController{
+    +exit()
+}
+
+
+controllers.Controller <|-- controllers.StartController
+controllers.Controller <|-- controllers.PlayController
+controllers.Controller <|-- controllers.ResumeController
+controllers.Controller <|-- controllers.UndoController
+controllers.Controller <|-- controllers.RedoController
+controllers.Controller <|-- controllers.OpenController
+controllers.Controller <|-- controllers.SaveController
+controllers.Controller <|-- controllers.ExitController
+
+
+controllers.Controller .down.> Coordinate
+controllers.Controller --> Game
+controllers.Controller ..> Color
+controllers.PlayController .down.> Error
+@enduml
