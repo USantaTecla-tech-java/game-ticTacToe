@@ -1,0 +1,293 @@
+@startuml tictactoe
+namespace usantatecla.tictactoe {
+class Board {
+	- tokens: Token[][] 
+	~ Board()
+	+ reset() 
+	~ write() 
+	- getToken(Coordinate): Token 
+	~ isCompleted(): boolean 
+	~ put(Coordinate, Token) 
+	~ move(Coordinate, Coordinate) 
+	- remove(Coordinate) 
+	~ isOccupied(Coordinate, Token): boolean 
+	~ isEmpty(Coordinate): boolean
+	~ isTicTacToe(Token): boolean
+	- getCoordinates(Token): List<Coordinate> 
+}
+
+class Coordinate {
+	~ NULL: {static} Coordinate
+	~ DIMENSION: {static} int 
+	~ LIMITS: {static} ClosedInterval 
+	~ Coordinate()
+	~ Coordinate(int, int)
+	+ isNull(): boolean 
+	+ getDirection(usantatecla.utils.models.Coordinate): Direction
+	+ inInverseDiagonal(): boolean 
+	+ read(String)
+	+ random() 
+	+ equals(Object): boolean 
+}
+
+enum Error {
+
+	+ NOT_EMPTY
+	+ NOT_OWNER
+	+ SAME_COORDINATES
+	+ WRONG_COORDINATES
+	+ NULL
+	- message: String 
+	~ Error()
+	~ Error(String)
+	~ writeln()
+}
+
+class MachinePlayer {
+	~ MachinePlayer(Token, Board)
+	# getCoordinate(Message): Coordinate 
+}
+
+enum Message {
+	+ TITTLE
+	+ NUMBER_PLAYERS
+	+ SEPARATOR
+	+ VERTICAL_LINE_LEFT
+	+ VERTICAL_LINE_CENTERED
+	+ VERTICAL_LINE_RIGHT
+	+ ENTER_COORDINATE_TO_PUT
+	+ ENTER_COORDINATE_TO_REMOVE
+	+ COORDINATE_TO_PUT
+	+ COORDINATE_TO_REMOVE
+	+ COORDINATE_TO_MOVE
+	+ PLAYER_WIN
+	+ RESUME
+	- message: String 
+	- Message(String)
+	~ write()
+	~ writeln()
+	+ toString(): String 
+}
+
+
+abstract class Player {
+	~ Player(Token, Board)
+	~ play()
+	- put()
+	# {abstract} getCoordinate(Message): Coordinate 
+	~ checkPutCoordinateError(Coordinate): Error 
+	- move()
+	# checkMoveOriginCoordinateError(Coordinate): Error 
+	# checkMoveTargetCoordinateError(Coordinate, Coordinate): Error 
+	~ writeWinner()
+	~ getToken(): Token 
+}
+
+class TicTacToe{
+    ~ TicTacToe()
+	- play()
+    - playGame()
+	- isResumedGame(): boolean
+	+ {static} main(String[])
+}
+
+enum Token {
+	+ X_TOKEN
+	+ Y_TOKEN
+	+ NULL
+    + isNull(): boolean 
+    ~ write()
+    ~ {static} get(int): Token 
+}
+
+class Turn {
+	~ NUMBER_PLAYERS: {static} int 
+	- active: int 
+	~ Turn(Board)
+	~ play()
+	- getPlayer(): Player 
+	~ writeWinner()
+	~ getToken(): Token  
+}
+
+class UserPlayer extends Player {
+	~ UserPlayer(Token, Board)
+	# getCoordinate(Message message)
+	# checkPutCoordinateError(Coordinate) 
+	# checkMoveOriginCoordinateError(Coordinate)
+	# checkMoveTargetCoordinateError(Coordinate, Coordinate)
+}
+
+TicTacToe *-down-> Board 
+TicTacToe *-down-> Turn 
+
+Board .down.> Token
+Turn .down.> Token
+Player *-down-> Token
+Player *-down-> Board 
+Turn *-down-> "2" Player 
+Board *-down-> Coordinate 
+Player <|-down- MachinePlayer
+Coordinate .down.> Error
+Player .down.> Error
+Board .down.> Message
+Player .down.> Message
+TicTacToe .down.> Message
+Turn .down.> Message
+
+}
+
+class ConcreteCoordinate as "usantatecla.utils.models.ConcreteCoordinate"{
+
+}
+
+class ClosedInterval as "usantatecla.utils.models.ClosedInterval"{
+	
+}
+
+class Console as "usantatecla.utils.views.Console"{
+	
+}
+
+class LimitedIntDialog as "usantatecla.utils.LimitedIntDialog"{
+	
+}
+
+class YesNoDialog as "usantatecla.utils.views.YesNoDialog"{
+	
+}
+
+enum Direction as "usantatecla.utils.models.Direction"{
+	
+}
+
+ConcreteCoordinate <|-down- usantatecla.tictactoe.Coordinate
+
+usantatecla.tictactoe.Coordinate .down.> ClosedInterval
+usantatecla.tictactoe.Token .down.> ClosedInterval
+
+
+usantatecla.tictactoe.Error .down.> Console
+usantatecla.tictactoe.Message .down.> Console
+usantatecla.tictactoe.Token .down.> Console
+
+
+
+usantatecla.tictactoe.Turn .down.> LimitedIntDialog
+usantatecla.tictactoe.TicTacToe .down.> YesNoDialog
+
+usantatecla.tictactoe.Board .down.> Direction
+usantatecla.tictactoe.Coordinate .down.> Direction
+
+@enduml
+
+
+@startuml utils
+namespace usantatecla.utils {
+
+interface Coordinate {
+	~ isNull(): boolean 
+	~ getDirection(Coordinate): Direction 
+	~ inHorizontal(Coordinate): boolean 
+	~ inVertical(Coordinate): boolean 
+	~ inMainDiagonal(): boolean 
+}
+
+class ConcreteCoordinate {
+	# row: int 
+	# column: int 
+	~ ROW: {static} String
+	~ COLUMN: {static} String
+	# ConcreteCoordinate()
+	# ConcreteCoordinate(int, int)
+	+ isNull(): boolean 
+	+ getDirection(Coordinate): Direction 
+	+ inHorizontal(Coordinate): boolean 
+	+ inVertical(Coordinate): boolean 
+	+ inMainDiagonal(): boolean 
+	# read(String)
+	+ getRow(): int 
+	+ getColumn(): int
+	+ hashCode(): int
+	+ equals(Object): boolean 
+	+ toString(): String 
+}
+class NullCoordinate {
+	+ instance: {static} NullCoordinate 
+	+ {static} instance(): Coordinate 
+	+ isNull(): boolean 
+	+ getDirection(Coordinate): Direction 
+	+ inHorizontal(Coordinate): boolean 
+	+ inVertical(Coordinate): boolean
+	+ inMainDiagonal(): boolean
+	+ hashCode(): int 
+	+ equals(Object): boolean 
+	+ toString(): String 
+}
+
+enum Direction {
+	+ VERTICAL
+	+ HORIZONTAL
+	+ MAIN_DIAGONAL
+	+ INVERSE_DIAGONAL
+	+ NULL
+}
+
+class Console {
+	+ console: {static} Console 
+	+ instance(): {static} Console 
+	+ readString(String): String 
+	+ readString(): String 
+	+ readInt(String): int 
+	+ readChar(String): char 
+	+ writeln()
+	+ write(String)
+	+ write(int)
+	+ writeln(String)
+	+ writeln(int)
+	+ write(char)
+	+ writeError(String)
+}
+
+class ClosedInterval {
+	- min: int 
+	- max: int 
+	+ ClosedInterval(int, int)
+	+ isIncluded(int): boolean 
+	+ toString(): String 
+}
+
+class YesNoDialog {
+	- AFFIRMATIVE: {static} char 
+	- NEGATIVE: {static} char 
+	- SUFFIX: {static} String 
+	- MESSAGE: {static} String
+	- answer: char 
+	+ read(String): boolean 
+	- isAfirmative(): boolean 
+	- getAnswer(): char 
+	- isNegative(): boolean 
+}
+
+class LimitedIntDialog {
+	- LIMITS: ClosedInterval 
+	- ERROR_MESSAGE: {static} String 
+	+ LimitedIntDialog(int, int)
+	+ read(String): int 
+}
+
+
+
+Coordinate <|-down- ConcreteCoordinate
+Coordinate <|-down- NullCoordinate
+Coordinate .down.> Direction
+ConcreteCoordinate .down.> Console
+LimitedIntDialog .down.> Console
+YesNoDialog .down.> Console
+LimitedIntDialog .down.> ClosedInterval
+}
+class BufferedReader as "java.io.BufferedReader"{
+	
+}
+usantatecla.utils.views.Console *-down-> BufferedReader
+@enduml
