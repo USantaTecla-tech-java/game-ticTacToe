@@ -3,7 +3,7 @@ package usantatecla.tictactoe;
 import usantatecla.utils.Console;
 
 enum Message {
-	TITLE("--- !!! TIC TAC TOE ---"),
+	TITLE("--- !!! TIC TAC TOE ¡¡¡ ---"),
 	HORIZONTAL_LINE("---------------"),
 	VERTICAL_LINE(" | "),
 	ENTER_COORDINATE_TO_PUT("Enter a coordinate to put a token:"),
