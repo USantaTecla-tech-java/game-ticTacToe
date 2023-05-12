@@ -2,11 +2,12 @@ package usantatecla.tictactoe;
 
 import usantatecla.tictactoe.models.Game;
 import usantatecla.tictactoe.views.console.ConsoleView;
+import usantatecla.tictactoe.views.View;
 
 class ConsoleTicTacToe extends TicTacToe {
 
 	@Override
-	protected ConsoleView createView(Game game) {
+	protected View createView(Game game) {
 		return new ConsoleView(game);
 	}
 

@@ -2,9 +2,33 @@
 
 ## :information_source: Este diagrama muestra las diferentes versiones del juego TicTacToe
 
+| Requistios  | Versión |
+|:------------- |:-------------|
+| [basic](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.0.basic/README.md) | [domainModel - basic](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/domainModel/basic) |
+| [machine](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.1.machine/README.md) | [domainModel - machine](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/domainModel/machine) |
+| [basic](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.0.basic/README.md) | [documentView - basic](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/documentView/basic) |
+| [machine](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.1.machine/README.md) | [documentView - machine - doubleDispatching](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/documentView/machine/doubleDispatching) |
+| [machine](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.1.machine/README.md) | [documentView - machine - prototype](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/documentView/machine/prototype) |
+| [graphics](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/2.0.graphics/README.md) | [documentView - withoutFactoryMethod](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/documentView/withoutFactoryMethod) |
+| [graphics](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/2.0.graphics/README.md) | [documentView - withFactoryMethod](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/documentView/withFactoryMethod) |
+| [graphics](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/2.0.graphics/README.md) | [modelViewPresenter - presentationModel - basic](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/basic) |
+| [graphics](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/2.0.graphics/README.md) | [modelViewPresenter - presentationModel - withFacade](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withFacade) |
+| [graphics](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/2.0.graphics/README.md) | [modelViewPresenter - presentationModel - withoutDoubleDispatching](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withoutDoubleDispatching) |
+| [graphics](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/2.0.graphics/README.md) | [modelViewPresenter - presentationModel - withDoubleDispatching](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withDoubleDispatching) |
+| [undoRedo](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/3.0.undoRedo/README.md) | [modelViewPresenter - presentationModel - withComposite](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withComposite) |
+| [distributed](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/4.0.distributed/README.md) | [modelViewPresenter - presentationModel - withoutProxy](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withoutProxy) |
+| [distributed](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/4.0.distributed/README.md) | [modelViewPresenter - presentationModel - withProxy](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withProxy) |
+| [files](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/5.0.files/README.md) | [modelViewPresenter - presentationModel - withoutDAO](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withoutDAO) |
+| [files](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/5.0.files/README.md) | [modelViewPresenter - presentationModel - withDAO](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withDAO) |
+| [bbdd](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/6.0.bbdd/README.md) | [modelViewPresenter - presentationModel - withoutPrototype](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withoutPrototype) |
+| [bbdd](https://github.com/USantaTecla-0-domains/game-ticTacToe/blob/master/6.0.bbdd/README.md) | [modelViewPresenter - presentationModel - withPrototype](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/presentationModel/withPrototype) |
+| [basic](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.0.basic/README.md) | [modelViewPresenter - passiveView](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/passiveView) |
+| [basic](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.0.basic/README.md) | [modelViewPresenter - supervisorController](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewPresenter/supervisorController) |
+| [basic](https://github.com/USantaTecla-0-domains/game-ticTacToe/tree/master/1.0.basic/README.md) | [modelViewController](https://github.com/USantaTecla-tech-java/game-ticTacToe/tree/master/modelViewController) |
+
 ![DiagramaSecuencia](/docs/diagrams/out/TicTacToe/TicTacToe.svg)
 
-# :gear: Configuration
+# Configuration
 
 ### ❗ La instalación corresponde al entorno Visual Studio Code.
 
