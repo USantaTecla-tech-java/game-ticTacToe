@@ -4,7 +4,7 @@ import usantatecla.tictactoe.models.Session;
 
 public abstract class AcceptorController extends Controller {
     
-    AcceptorController(Session session) {
+    protected AcceptorController(Session session) {
 		super(session);
 	}
 

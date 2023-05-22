@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views;
 
-import usantatecla.tictactoe.controllers.StartController;
+import usantatecla.tictactoe.controllers.interfaces.StartController;
 import usantatecla.tictactoe.models.Turn;
 import usantatecla.utils.PlayersDialog;
 import usantatecla.utils.WithConsoleView;

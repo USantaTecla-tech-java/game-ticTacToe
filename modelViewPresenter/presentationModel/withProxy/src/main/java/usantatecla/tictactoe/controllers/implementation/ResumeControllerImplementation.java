@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.ResumeController;
+import usantatecla.tictactoe.controllers.interfaces.ResumeController;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.models.SessionImplementation;
 

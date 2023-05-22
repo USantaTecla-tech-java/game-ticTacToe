@@ -2,9 +2,9 @@ package usantatecla.tictactoe.views;
 
 import usantatecla.tictactoe.controllers.AcceptorController;
 import usantatecla.tictactoe.controllers.ControllersVisitor;
-import usantatecla.tictactoe.controllers.PlayController;
-import usantatecla.tictactoe.controllers.ResumeController;
-import usantatecla.tictactoe.controllers.StartController;
+import usantatecla.tictactoe.controllers.interfaces.PlayController;
+import usantatecla.tictactoe.controllers.interfaces.ResumeController;
+import usantatecla.tictactoe.controllers.interfaces.StartController;
 
 public class View implements ControllersVisitor {
 
