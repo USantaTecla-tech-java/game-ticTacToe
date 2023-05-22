@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.controllers;
 
-import usantatecla.tictactoe.distributed.server.dispatchers.TCPIP;
+import usantatecla.tictactoe.launchers.server.dispatchers.TCPIP;
 import usantatecla.tictactoe.models.Session;
 
 public abstract class AcceptorController extends Controller {

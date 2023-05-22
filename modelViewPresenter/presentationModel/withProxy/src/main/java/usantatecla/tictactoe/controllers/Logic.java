@@ -6,7 +6,7 @@ import java.util.Map;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.types.StateValue;
 
-public class Logic {
+public abstract class Logic {
 
 	protected Session session;
 	
