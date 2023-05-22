@@ -1,7 +1,7 @@
 package usantatecla.tictactoe.controllers;
 
-import usantatecla.tictactoe.distributed.dispatchers.FrameType;
-import usantatecla.tictactoe.distributed.dispatchers.TCPIP;
+import usantatecla.tictactoe.distributed.server.dispatchers.FrameType;
+import usantatecla.tictactoe.distributed.server.dispatchers.TCPIP;
 import usantatecla.tictactoe.models.Coordinate;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.types.Error;

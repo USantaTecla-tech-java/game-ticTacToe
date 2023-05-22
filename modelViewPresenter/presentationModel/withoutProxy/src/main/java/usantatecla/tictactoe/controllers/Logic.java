@@ -3,7 +3,7 @@ package usantatecla.tictactoe.controllers;
 import java.util.HashMap;
 import java.util.Map;
 
-import usantatecla.tictactoe.distributed.dispatchers.TCPIP;
+import usantatecla.tictactoe.distributed.server.dispatchers.TCPIP;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.models.StateValue;
 

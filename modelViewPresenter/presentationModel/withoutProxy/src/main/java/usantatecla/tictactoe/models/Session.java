@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.models;
 
-import usantatecla.tictactoe.distributed.dispatchers.FrameType;
+import usantatecla.tictactoe.distributed.server.dispatchers.FrameType;
 import usantatecla.tictactoe.types.Error;
 import usantatecla.tictactoe.types.PlayerType;
 import usantatecla.tictactoe.types.Token;

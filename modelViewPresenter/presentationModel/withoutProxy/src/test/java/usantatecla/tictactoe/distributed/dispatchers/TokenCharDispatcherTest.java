@@ -7,6 +7,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import usantatecla.tictactoe.controllers.PlayController;
+import usantatecla.tictactoe.distributed.server.dispatchers.FrameType;
+import usantatecla.tictactoe.distributed.server.dispatchers.TCPIP;
 import usantatecla.tictactoe.models.Coordinate;
 import usantatecla.tictactoe.models.Session;
 
