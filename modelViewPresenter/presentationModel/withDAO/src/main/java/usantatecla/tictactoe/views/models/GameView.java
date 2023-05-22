@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views.models;
 
-import usantatecla.tictactoe.controllers.PlayController;
+import usantatecla.tictactoe.controllers.interfaces.PlayController;
 
 public class GameView {
 

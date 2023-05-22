@@ -1,9 +1,9 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.SaveController;
+import usantatecla.tictactoe.controllers.interfaces.SaveController;
+import usantatecla.tictactoe.daos.SessionImplementationDAO;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.models.SessionImplementation;
-import usantatecla.tictactoe.models.DAO.SessionImplementationDAO;
 
 public class SaveControllerImplementation extends SaveController {
 

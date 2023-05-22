@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views.menus;
 
-import usantatecla.tictactoe.controllers.StartController;
+import usantatecla.tictactoe.controllers.interfaces.StartController;
 import usantatecla.tictactoe.views.models.MessageView;
 
 class OpenGameCommand extends Command{

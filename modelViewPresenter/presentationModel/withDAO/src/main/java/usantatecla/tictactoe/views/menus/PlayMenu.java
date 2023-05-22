@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views.menus;
 
-import usantatecla.tictactoe.controllers.PlayController;
+import usantatecla.tictactoe.controllers.interfaces.PlayController;
 import usantatecla.utils.Menu;
 
 public class PlayMenu extends Menu {

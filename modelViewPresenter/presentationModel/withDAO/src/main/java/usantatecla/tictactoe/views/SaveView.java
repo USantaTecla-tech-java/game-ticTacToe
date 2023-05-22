@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views;
 
-import usantatecla.tictactoe.controllers.SaveController;
+import usantatecla.tictactoe.controllers.interfaces.SaveController;
 import usantatecla.tictactoe.views.models.MessageView;
 import usantatecla.utils.WithConsoleView;
 import usantatecla.utils.YesNoDialog;

@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views;
 
-import usantatecla.tictactoe.controllers.StartController;
+import usantatecla.tictactoe.controllers.interfaces.StartController;
 import usantatecla.tictactoe.views.menus.StartMenu;
 import usantatecla.tictactoe.views.models.MessageView;
 import usantatecla.utils.WithConsoleView;

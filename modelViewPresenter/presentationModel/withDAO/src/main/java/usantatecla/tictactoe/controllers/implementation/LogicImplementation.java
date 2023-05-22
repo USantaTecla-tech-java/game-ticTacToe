@@ -1,8 +1,8 @@
 package usantatecla.tictactoe.controllers.implementation;
 
 import usantatecla.tictactoe.controllers.Logic;
+import usantatecla.tictactoe.daos.SessionImplementationDAO;
 import usantatecla.tictactoe.models.SessionImplementation;
-import usantatecla.tictactoe.models.DAO.SessionImplementationDAO;
 import usantatecla.tictactoe.types.StateValue;
 
 public class LogicImplementation extends Logic {

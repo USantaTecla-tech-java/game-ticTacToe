@@ -1,10 +1,7 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.PlayController;
-import usantatecla.tictactoe.controllers.ExitController;
-import usantatecla.tictactoe.controllers.MovementController;
-import usantatecla.tictactoe.controllers.RedoController;
-import usantatecla.tictactoe.controllers.UndoController;
+import usantatecla.tictactoe.controllers.interfaces.ExitController;
+import usantatecla.tictactoe.controllers.interfaces.PlayController;
 import usantatecla.tictactoe.models.Coordinate;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.types.Error;

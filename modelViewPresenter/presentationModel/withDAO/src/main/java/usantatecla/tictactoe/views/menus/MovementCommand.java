@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views.menus;
 
-import usantatecla.tictactoe.controllers.PlayController;
+import usantatecla.tictactoe.controllers.interfaces.PlayController;
 import usantatecla.tictactoe.models.Coordinate;
 import usantatecla.tictactoe.types.PlayerType;
 import usantatecla.tictactoe.views.models.BoardView;

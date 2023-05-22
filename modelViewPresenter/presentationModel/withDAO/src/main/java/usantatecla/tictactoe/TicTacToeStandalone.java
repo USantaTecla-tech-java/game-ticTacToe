@@ -2,7 +2,7 @@ package usantatecla.tictactoe;
 
 import usantatecla.tictactoe.controllers.Logic;
 import usantatecla.tictactoe.controllers.implementation.LogicImplementation;
-import usantatecla.tictactoe.models.DAO.SessionImplementationDAO;
+import usantatecla.tictactoe.daos.SessionImplementationDAO;
 
 public class TicTacToeStandalone extends TicTacToe {
 

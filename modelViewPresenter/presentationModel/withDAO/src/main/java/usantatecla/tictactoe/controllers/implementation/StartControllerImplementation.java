@@ -1,9 +1,9 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.StartController;
+import usantatecla.tictactoe.controllers.interfaces.StartController;
+import usantatecla.tictactoe.daos.SessionImplementationDAO;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.models.SessionImplementation;
-import usantatecla.tictactoe.models.DAO.SessionImplementationDAO;
 
 public class StartControllerImplementation extends StartController {
 	private SessionImplementationDAO sessionImplementationDAO;
