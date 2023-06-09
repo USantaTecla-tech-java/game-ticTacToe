@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views;
 
-import usantatecla.tictactoe.controllers.interfaces.PlayController;
+import usantatecla.tictactoe.controllers.core.PlayController;
 import usantatecla.tictactoe.models.Coordinate;
 import usantatecla.utils.WithConsoleView;
 import usantatecla.tictactoe.types.Error;

@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.interfaces.StartController;
+import usantatecla.tictactoe.controllers.core.StartController;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.models.SessionImplementation;
 

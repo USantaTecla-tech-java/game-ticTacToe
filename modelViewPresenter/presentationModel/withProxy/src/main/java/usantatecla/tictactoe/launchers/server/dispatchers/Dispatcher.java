@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.server.dispatchers;
 
-import usantatecla.tictactoe.controllers.AcceptorController;
+import usantatecla.tictactoe.controllers.core.AcceptorController;
 
 public abstract class Dispatcher {
 	

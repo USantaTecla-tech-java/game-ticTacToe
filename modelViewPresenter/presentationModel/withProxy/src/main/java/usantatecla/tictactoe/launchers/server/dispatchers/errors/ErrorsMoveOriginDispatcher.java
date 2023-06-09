@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.server.dispatchers.errors;
 
-import usantatecla.tictactoe.controllers.interfaces.PlayController;
+import usantatecla.tictactoe.controllers.core.PlayController;
 import usantatecla.tictactoe.launchers.server.dispatchers.Dispatcher;
 import usantatecla.tictactoe.models.Coordinate;
 

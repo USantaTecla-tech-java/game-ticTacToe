@@ -1,14 +1,14 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.PlayController;
-import usantatecla.tictactoe.controllers.ExitController;
-import usantatecla.tictactoe.controllers.MovementController;
-import usantatecla.tictactoe.controllers.RedoController;
-import usantatecla.tictactoe.controllers.UndoController;
-import usantatecla.tictactoe.models.Coordinate;
-import usantatecla.tictactoe.models.Session;
-import usantatecla.tictactoe.types.Error;
-import usantatecla.tictactoe.types.PlayerType;
+import usantatecla.tictactoe.controllers.core.ExitController;
+import usantatecla.tictactoe.controllers.core.MovementController;
+import usantatecla.tictactoe.controllers.core.PlayController;
+import usantatecla.tictactoe.controllers.core.RedoController;
+import usantatecla.tictactoe.controllers.core.UndoController;
+import usantatecla.tictactoe.models.core.Coordinate;
+import usantatecla.tictactoe.models.core.Session;
+import usantatecla.tictactoe.models.types.Error;
+import usantatecla.tictactoe.models.types.PlayerType;
 
 public class PlayControllerImplementation extends PlayController {
 

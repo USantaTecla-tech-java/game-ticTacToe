@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.client.proxies;
 
-import usantatecla.tictactoe.controllers.interfaces.PlayController;
+import usantatecla.tictactoe.controllers.core.PlayController;
 import usantatecla.tictactoe.launchers.server.dispatchers.FrameType;
 import usantatecla.tictactoe.launchers.server.dispatchers.TCPIP;
 import usantatecla.tictactoe.models.Coordinate;

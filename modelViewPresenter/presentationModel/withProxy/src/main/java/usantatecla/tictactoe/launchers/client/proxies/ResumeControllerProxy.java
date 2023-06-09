@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.client.proxies;
 
-import usantatecla.tictactoe.controllers.interfaces.ResumeController;
+import usantatecla.tictactoe.controllers.core.ResumeController;
 import usantatecla.tictactoe.launchers.server.dispatchers.FrameType;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.utils.TCPIP;

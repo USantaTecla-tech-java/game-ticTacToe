@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.server.dispatchers;
 
-import usantatecla.tictactoe.controllers.interfaces.StartController;
+import usantatecla.tictactoe.controllers.core.StartController;
 
 public class StartDispatcher extends Dispatcher {
 

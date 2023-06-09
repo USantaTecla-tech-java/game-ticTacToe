@@ -1,0 +1,66 @@
+@startuml arquitectura
+
+package launchers {
+package launchers.client {
+package launchers.client.core 
+package launchers.client.proxies
+}
+package launchers.server {
+package launchers.server.core 
+package launchers.server.dispatchers
+}
+package launchers.standalone 
+}
+
+package views {
+package console {
+package views.console.core
+package views.console.menus 
+package views.console.models 
+}
+package graphics 
+}
+
+package controllers {
+package controllers.core 
+package controllers.implementation
+}
+
+package daos {
+package daos.core 
+package daos.dataBase 
+package daos.files
+}
+
+package models {
+package models.core 
+package models.types 
+}
+
+launchers.standalone .down.> views
+launchers.standalone .down.> controllers
+launchers.standalone .down.> daos
+launchers.client.core .down.> launchers.client.proxies 
+launchers.client .down.> views
+launchers.client .down.> controllers.core
+launchers.server.core .down.> launchers.server.dispatchers 
+launchers.server .down.> controllers
+launchers.server .down.> daos
+
+views.console.core .down.> views.console.menus
+views.console.core .down.> views.console.models
+views.console.menus .down.> views.console.models
+views .down.> controllers.core
+views .down.> models.types
+  
+controllers.implementation .down.> controllers.core
+controllers.core .down.> models 
+controllers .down.> daos.core
+
+daos.files .down.> daos.core
+daos.dataBase .down.> daos.core 
+daos.core .down.> models
+
+models.core .down.> models.types 
+
+@enduml

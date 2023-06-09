@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.views;
 
-import usantatecla.tictactoe.controllers.interfaces.ResumeController;
+import usantatecla.tictactoe.controllers.core.ResumeController;
 import usantatecla.utils.YesNoDialog;
 
 class ResumeView {

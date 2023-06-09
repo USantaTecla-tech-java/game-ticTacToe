@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.Logic;
+import usantatecla.tictactoe.controllers.core.Logic;
 import usantatecla.tictactoe.models.SessionImplementation;
 import usantatecla.tictactoe.types.StateValue;
 

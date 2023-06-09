@@ -1,7 +1,7 @@
 package usantatecla.tictactoe.launchers;
 
-import usantatecla.tictactoe.controllers.AcceptorController;
-import usantatecla.tictactoe.controllers.Logic;
+import usantatecla.tictactoe.controllers.core.AcceptorController;
+import usantatecla.tictactoe.controllers.core.Logic;
 import usantatecla.tictactoe.views.View;
 
 public abstract class TicTacToe {

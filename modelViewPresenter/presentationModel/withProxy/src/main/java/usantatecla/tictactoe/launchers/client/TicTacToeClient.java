@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.client;
 
-import usantatecla.tictactoe.controllers.Logic;
+import usantatecla.tictactoe.controllers.core.Logic;
 import usantatecla.tictactoe.launchers.TicTacToe;
 
 public class TicTacToeClient extends TicTacToe{

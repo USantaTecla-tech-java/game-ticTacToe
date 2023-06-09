@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.client.proxies;
 
-import usantatecla.tictactoe.controllers.interfaces.StartController;
+import usantatecla.tictactoe.controllers.core.StartController;
 import usantatecla.tictactoe.launchers.server.dispatchers.FrameType;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.utils.TCPIP;

@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.server.dispatchers;
 
-import usantatecla.tictactoe.controllers.interfaces.PlayController;
+import usantatecla.tictactoe.controllers.core.PlayController;
 import usantatecla.tictactoe.models.Coordinate;
 
 public class MoveTokenDispatcher extends Dispatcher {

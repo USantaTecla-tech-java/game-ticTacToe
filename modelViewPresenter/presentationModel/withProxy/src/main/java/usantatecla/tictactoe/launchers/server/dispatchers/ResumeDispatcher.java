@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.launchers.server.dispatchers;
 
-import usantatecla.tictactoe.controllers.interfaces.ResumeController;
+import usantatecla.tictactoe.controllers.core.ResumeController;
 
 public class ResumeDispatcher extends Dispatcher {
 

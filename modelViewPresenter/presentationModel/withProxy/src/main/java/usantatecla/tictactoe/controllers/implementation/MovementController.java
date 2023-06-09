@@ -1,6 +1,6 @@
 package usantatecla.tictactoe.controllers.implementation;
 
-import usantatecla.tictactoe.controllers.Controller;
+import usantatecla.tictactoe.controllers.core.Controller;
 import usantatecla.tictactoe.models.Coordinate;
 import usantatecla.tictactoe.models.Session;
 import usantatecla.tictactoe.models.SessionImplementation;

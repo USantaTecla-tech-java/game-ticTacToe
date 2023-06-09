@@ -6,11 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions;
 
-import usantatecla.tictactoe.models.Coordinate;
-import usantatecla.tictactoe.models.Session;
-import usantatecla.tictactoe.models.SessionImplementation;
+import usantatecla.tictactoe.models.core.Coordinate;
+import usantatecla.tictactoe.models.core.Session;
+import usantatecla.tictactoe.models.core.SessionImplementation;
+
+import org.junit.jupiter.api.Assertions;
 
 public class PlayControllerImplementationTest {
     
