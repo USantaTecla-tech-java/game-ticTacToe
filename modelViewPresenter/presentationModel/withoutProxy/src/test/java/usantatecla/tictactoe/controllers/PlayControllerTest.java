@@ -48,7 +48,7 @@ public class PlayControllerTest {
 
     @Test
     public void testGivenNewPlayControllerWhenGenerateRandomCoordinateThenIsNotNull() {
-        //assertThat(this.playController.generateRandomCoordinate(), is(null));
+        //assertThat(this.playController.generateRandomCoordinate(), is(null)));
     }
 
     @Test

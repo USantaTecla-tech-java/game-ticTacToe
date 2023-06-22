@@ -30,7 +30,8 @@ public class RegistryTest {
 
     @Test
     void testGivenNewGameRegistryWhenUndoThenIndexOutOfBoundsExceptionIsThrown() {
-        assertThrows(IndexOutOfBoundsException.class, () -> this.registry.undo(this.game));
+        assertThrows(IndexOutOfBoundsException.class, () -> 
+            this.registry.undo(this.game));
     }
 
     @Test
